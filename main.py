@@ -1,20 +1,10 @@
-import os
-from collections import defaultdict
-import re
+from src.utils import get_all_file_names, get_words_frequency
 
-def get_all_file_names():
-    filenames = os.listdir('documents')
-    return filenames
-
-def get_words_frequency(file:str):
-    counts = defaultdict(int)
-    for word in re.findall('\w+', file):
-        counts[word] += 1
-    return counts
 
 text = "Hello World friend, World"
 
-a = get_all_file_names()
+a = get_all_file_names('documents')
 b = get_words_frequency(text)
+
 print(a)
 print(b)
