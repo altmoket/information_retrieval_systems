@@ -2,27 +2,37 @@ import os
 from collections import defaultdict
 import re
 
-def get_all_file_names(path = "documents"):
+def filenamesFromPath(path = "documents"):
     filenames = os.listdir(path)
     return filenames
 
-def get_words_frequency(text:str):
+def wordsFrequencyInText(text:str):
+    PATTERN = '\w+'
     counts = defaultdict(int)
-    for word in re.findall('\w+', text):
+    for word in re.findall(PATTERN, text):
         counts[word] += 1
     return counts
 
-def get_all_words_frequency(path:str):
-    filenames = get_all_file_names(path)
+def wordsFrequencyInPath(path:str):
+    filenames = filenamesFromPath(path)
     results = defaultdict(int)
+
     for filename in filenames:
-        with open(f"{path}/{filename}") as f:
-            counts = get_words_frequency(f.read())
-            for key,value in counts.items():
-                if results[key] is not None:
-                    results[key] += value
-                else:
-                    results[key] = value
+        filenamePath = f'{path}/{filename}'
+        wordsFrequency = wordsFrequencyInFileFromPath(filenamePath) 
+
+        for key,value in wordsFrequency.items():
+            if results[key]:
+                results[key] += value
+            else:
+                results[key] = value
+
     return results
+
+def wordsFrequencyInFileFromPath(path):
+    with open(path) as f:
+        text = f.read()
+        return wordsFrequencyInText(text)
+
 
 
