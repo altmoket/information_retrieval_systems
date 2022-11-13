@@ -66,14 +66,18 @@ def numberOfDocumentsWhichContainsTerm(docs, term):
 
 def idfTermInDocs(term, docs):
     numberOfDocuments = len(docs)
-    documentsWichContainsTerm = numberOfDocumentsWhichContainsTerm(docs, term)
-    idf = math.log(numberOfDocuments/documentsWichContainsTerm)
+    documentsThatContainsTerm = numberOfDocumentsWhichContainsTerm(docs, term)
+    idf = math.log(numberOfDocuments/documentsThatContainsTerm)
     return idf
-    
 
-
-
-
+def weightsFromTermsInDocuments(terms, docs):
+    weights = dict()
+    for term in terms:
+        idf = idfTermInDocs(term, docs)
+        for doc in docs:
+            tf = tfTermInDoc(term, doc)
+            weights[term] = tf * idf
+    return weights
 
 def main():
     CORPUS = "cranfield"
