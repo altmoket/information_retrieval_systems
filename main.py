@@ -13,8 +13,10 @@ import stop_words
 #     print(query.text)
 
 
-def tokenizeQuery(query):
-    return query.split()
+def tokenizeText(text):
+    PATTERN = "[a-zA-Z]+"
+    tokens = re.findall(PATTERN, text)
+    return tokens
 
 def removeStopWordsInTokens(tokens):
     ENGLISH_LANGUAGE = "english"
@@ -70,7 +72,7 @@ def idfTermInDocs(term, docs):
     idf = math.log(numberOfDocuments/documentsThatContainsTerm)
     return idf
 
-def weightsFromTermsInDocuments(terms, docs):
+def weightsDictOfTermsInDocuments(terms, docs):
     weights = dict()
     for term in terms:
         idf = idfTermInDocs(term, docs)
@@ -82,10 +84,11 @@ def weightsFromTermsInDocuments(terms, docs):
 def main():
     CORPUS = "cranfield"
     dataSet = ir_datasets.load(CORPUS)
+    terms = []
     for query in dataSet.queries_iter():
-        tokens = tokenizeQuery(query.text)
-        tokens = removeStopWordsInTokens(tokens)
-        print(tokens)
+        tokens = tokenizeText(query.text)
+        terms = removeStopWordsInTokens(tokens)
+        print(terms)
 
 MAIN = "__main__"
 if __name__ == MAIN:
