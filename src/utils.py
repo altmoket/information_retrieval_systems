@@ -7,9 +7,9 @@ def booleanToInt(boolean):
 def matchText(text1, text2):
     return text1 == text2
 
-def existItemInList(term, doc):
+def existItemInList(item, list):
     EXIST = True
-    for docTerm in doc:
-        if matchText(docTerm, term):
+    for itemList in list:
+        if matchText(item, itemList):
             return EXIST
     return not EXIST

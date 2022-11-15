@@ -38,16 +38,14 @@ def simQueryDoc(query, doc, idfCollection, suavizado = 0.4):
         sum_square_weight_query += weight_term_query ** 2
     sqrt_sum_square_weight_query = math.sqrt(sum_square_weight_query)
     sqrt_sum_square_weight_doc = math.sqrt(sum_square_weight_doc)
-    if sqrt_sum_square_weight_query == 0 or sqrt_sum_square_weight_doc == 0: return 0
-    return sum_prod_weight / (sqrt_sum_square_weight_query * sqrt_sum_square_weight_doc) 
+    return sim(sum_prod_weight, sqrt_sum_square_weight_query, sqrt_sum_square_weight_doc)
 
 def idfTermInDocs(term, docs):
     numberOfDocuments = len(docs)
     documentsThatContainsTerm = numberOfDocumentsWhichContainsTerm(docs, term)
     return idf(numberOfDocuments, documentsThatContainsTerm)
 
-
-def weightTermDoc(term, doc, idf): # idf no deberia ser pasado como parametro, reestructurar
+def weightTermDoc(term, doc, idf): # Lo mismo para el siguiente metodo
     tf_term_doc = tfTermInStringCollection(term, doc)
     return tf_term_doc * idf
 
@@ -60,7 +58,6 @@ def tfTermInStringCollection(term, collection):
     frequency = frequencyTermInDoc(term, collection)
     maxFrequency = maxFrequencyInDoc(collection)
     return tf(frequency, maxFrequency)
-
 
 def frequencyTermInDoc(term, doc):
     frequency = 0
@@ -83,6 +80,12 @@ def numberOfDocumentsWhichContainsTerm(docs, term):
         increment = booleanToInt(existItemInList(term, doc)) 
         numberOfDocuments += increment
     return numberOfDocuments
+
+def sim(sum_prod_weight, sqrt_sum_square_weight_query, sqrt_sum_square_weight_doc):
+    try:
+        return sum_prod_weight / (sqrt_sum_square_weight_query * sqrt_sum_square_weight_doc)
+    except:
+        return 0
 
 def idf(numberOfDocuments, documentsThatContainsTerm):
     try:
