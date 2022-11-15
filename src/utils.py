@@ -6,3 +6,10 @@ def booleanToInt(boolean):
 
 def matchText(text1, text2):
     return text1 == text2
+
+def existItemInList(term, doc):
+    EXIST = True
+    for docTerm in doc:
+        if matchText(docTerm, term):
+            return EXIST
+    return not EXIST
