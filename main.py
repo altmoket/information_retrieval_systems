@@ -105,7 +105,6 @@ def main():
     arguments = sys.argv
     lengthArgs = len(arguments)
     ranking = None
-    print(arguments)
     if lengthArgs == 2:
         query = arguments[1]
         ranking = rankingOfUserQuery(query)
