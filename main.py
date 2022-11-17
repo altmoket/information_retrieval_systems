@@ -100,26 +100,40 @@ def tf(frequency, maxFrequency):
     except:
         return 0
 
-# print(f"{doc.doc_id=}")
-# print(f"{doc.author=}")
-# print(f"{doc.title=}")
-# print(f"{doc.text=}")
-# print(f"{doc.bib=}")
-
+import sys
 def main():
+    arguments = sys.argv
+    lengthArgs = len(arguments)
+    ranking = None
+    print(arguments)
+    if lengthArgs == 2:
+        query = arguments[1]
+        ranking = rankingOfUserQuery(query)
+    elif lengthArgs == 3:
+        query = arguments[1]
+        umbral = arguments[2]
+        ranking = rankingOfUserQuery(query, float(umbral))
+    elif lengthArgs < 2 or lengthArgs > 3 :
+        print("Usage: python main.py \'query\' (umbral)?")
+        return
+    return ranking
+
+def rankingOfUserQuery(query, umbral=0.4):
+    dataSet = cranfieldDataset() 
+    docs = parsedCranfieldDocuments(dataSet)
+    ranking = rankingOfDocumentsGivenQueryDocsAndUmbral(query, docs, umbral)
+    return ranking
+
+def cranfieldDataset():
     CORPUS = "cranfield"
-    dataSet = ir_datasets.load(CORPUS)
-    query = None
-    for queryUnParse in dataSet.queries_iter():
-        query = parseCranfieldText(queryUnParse.text)
-        break
+    return ir_datasets.load(CORPUS)
+
+def parsedCranfieldDocuments(dataSet):
     docs = []
     for doc in dataSet.docs_iter():
         docTerms = parseCranfieldText(doc.text)
         docs.append(docTerms)
-
-    ranking = rankingOfDocumentsGivenQueryDocsAndUmbral(query, docs, 0.4)
-    print(len(ranking))
+    return docs
 
 MAIN = "__main__"
 if __name__ == MAIN:
