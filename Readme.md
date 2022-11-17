@@ -13,7 +13,3 @@ python main.py query:=str umbral:=float # query entre comillas
 
 ```
 **Nota**: Dataset utilizado: Cranfield
-
-
-
-
