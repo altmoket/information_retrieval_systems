@@ -5,6 +5,10 @@ class Document:
         self.id = id
         self.text = text.lower()
         
+    @staticmethod
+    def all(doc_collection):
+        pass
+        
 
 class CranfieldDocument(Document):
     def __init__(self, id, title, text, author, editorial) -> None:
