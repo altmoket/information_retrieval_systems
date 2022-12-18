@@ -6,7 +6,7 @@ class Document:
         self.text = text.lower()
         
     @staticmethod
-    def all(doc_collection):
+    def all(collection_name):
         pass
         
 
