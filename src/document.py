@@ -1,4 +1,5 @@
-
+from .configuration import Configuration, File
+from.exceptions import CollectionNotFound
 
 class Document:
     def __init__(self, id, text) -> None:
@@ -7,8 +8,12 @@ class Document:
         
     @staticmethod
     def all(collection_name):
-        pass
-        
+        try:
+            docs_path = Configuration().get(collection_name, 'docs')
+            docs = File(docs_path).open()
+            return docs
+        except:
+            raise CollectionNotFound()
 
 class CranfieldDocument(Document):
     def __init__(self, id, title, text, author, editorial) -> None:
