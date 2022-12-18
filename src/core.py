@@ -3,13 +3,16 @@ from ir_datasets.util import math
 from src.parser import parseCranfieldText
 from src.utils import matchText, booleanToInt, existItemInList
 
-def rankingOfDocumentsGivenQueryDocsAndUmbral(query, docs, umbral = 0.6):
-    listOfDocumentsRetrieve = listOfRetrieveDocumentsGivenQueryDocs(query, docs)
+
+def rankingOfDocumentsGivenQueryDocsAndUmbral(query, docs, umbral=0.6):
+    listOfDocumentsRetrieve = listOfRetrieveDocumentsGivenQueryDocs(
+        query, docs)
     ranking = []
-    for (doc,similitud) in listOfDocumentsRetrieve:
+    for (doc, similitud) in listOfDocumentsRetrieve:
         if similitud > umbral:
             ranking.append((doc, similitud))
-    return ranking # Falta ordenarlos
+    return ranking  # Falta ordenarlos
+
 
 def listOfRetrieveDocumentsGivenQueryDocs(query, docs):
     idfCollection = idfCollectionGivenQueryAndDocs(query, docs)
@@ -19,6 +22,7 @@ def listOfRetrieveDocumentsGivenQueryDocs(query, docs):
         listOfRetrieveDocuments.append((doc, similitud))
     return listOfRetrieveDocuments
 
+
 def idfCollectionGivenQueryAndDocs(query, docs):
     idfCollection = []
     for term in query:
@@ -26,11 +30,12 @@ def idfCollectionGivenQueryAndDocs(query, docs):
         idfCollection.append(idf_term_in_docs)
     return idfCollection
 
-def simQueryDoc(query, doc, idfCollection, suavizado = 0.4):
+
+def simQueryDoc(query, doc, idfCollection, suavizado=0.4):
     sum_prod_weight = 0
     sum_square_weight_query = 0
     sum_square_weight_doc = 0
-    for idf,term in zip(idfCollection,query):
+    for idf, term in zip(idfCollection, query):
         weight_term_doc = weightTermDoc(term, doc, idf)
         weight_term_query = weightTermQuery(term, query, idf, suavizado)
         sum_prod_weight += weight_term_doc * weight_term_query
@@ -40,24 +45,30 @@ def simQueryDoc(query, doc, idfCollection, suavizado = 0.4):
     sqrt_sum_square_weight_doc = math.sqrt(sum_square_weight_doc)
     return sim(sum_prod_weight, sqrt_sum_square_weight_query, sqrt_sum_square_weight_doc)
 
+
 def idfTermInDocs(term, docs):
     numberOfDocuments = len(docs)
     documentsThatContainsTerm = numberOfDocumentsWhichContainsTerm(docs, term)
     return idf(numberOfDocuments, documentsThatContainsTerm)
 
-def weightTermDoc(term, doc, idf): # Lo mismo para el siguiente metodo
+
+def weightTermDoc(term, doc, idf):  # Lo mismo para el siguiente metodo
     tf_term_doc = tfTermInStringCollection(term, doc)
     return tf_term_doc * idf
 
-def weightTermQuery(term, query, idf, suavizado = 0.4): # el weight solo depende del tf e idf. Arreglar
+
+# el weight solo depende del tf e idf. Arreglar
+def weightTermQuery(term, query, idf, suavizado=0.4):
     tf_term_query = tfTermInStringCollection(term, query)
     weight = (suavizado + (1 - suavizado) * tf_term_query) * idf
     return weight
+
 
 def tfTermInStringCollection(term, collection):
     frequency = frequencyTermInDoc(term, collection)
     maxFrequency = maxFrequencyInDoc(collection)
     return tf(frequency, maxFrequency)
+
 
 def frequencyTermInDoc(term, doc):
     frequency = 0
@@ -65,6 +76,7 @@ def frequencyTermInDoc(term, doc):
         increment = booleanToInt(matchText(term, docTerm))
         frequency += increment
     return frequency
+
 
 def maxFrequencyInDoc(doc):
     maxFrequency = 0
@@ -74,18 +86,21 @@ def maxFrequencyInDoc(doc):
             maxFrequency = frequency
     return maxFrequency
 
+
 def numberOfDocumentsWhichContainsTerm(docs, term):
     numberOfDocuments = 0
     for doc in docs:
-        increment = booleanToInt(existItemInList(term, doc)) 
+        increment = booleanToInt(existItemInList(term, doc))
         numberOfDocuments += increment
     return numberOfDocuments
+
 
 def sim(sum_prod_weight, sqrt_sum_square_weight_query, sqrt_sum_square_weight_doc):
     try:
         return sum_prod_weight / (sqrt_sum_square_weight_query * sqrt_sum_square_weight_doc)
     except:
         return 0
+
 
 def idf(numberOfDocuments, documentsThatContainsTerm):
     try:
@@ -94,6 +109,7 @@ def idf(numberOfDocuments, documentsThatContainsTerm):
     except:
         return 0
 
+
 def tf(frequency, maxFrequency):
     try:
         return frequency/maxFrequency
@@ -101,16 +117,17 @@ def tf(frequency, maxFrequency):
         return 0
 
 
-
 def rankingOfUserQuery(query, umbral=0.4):
-    dataSet = cranfieldDataset() 
+    dataSet = setCranfieldDataset()
     docs = parsedCranfieldDocuments(dataSet)
     ranking = rankingOfDocumentsGivenQueryDocsAndUmbral(query, docs, umbral)
     return ranking
 
-def cranfieldDataset():
+
+def setCranfieldDataset():
     CORPUS = "cranfield"
     return ir_datasets.load(CORPUS)
+
 
 def parsedCranfieldDocuments(dataSet):
     docs = []
