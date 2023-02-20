@@ -1,4 +1,4 @@
-from sri.parser import cisi
+import sri.searchengine.parser.cisi as cisi
 import json
 
 PATH_TO_CISI_TXT = "db/cisi/CISI.ALL"

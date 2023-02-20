@@ -1,4 +1,4 @@
-from sri.parser.cranfield import get_data, get_txt_data,\
+from sri.searchengine.parser.cranfield import get_data, get_txt_data,\
                                 get_qry_data, get_cran_rel, get_cran_rel_numpy
 import json
 PATH_TO_CRAN_TXT = "db/cran/cran.all.1400"
