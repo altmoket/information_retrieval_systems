@@ -1,15 +1,47 @@
-### Preentrega Proyecto de Sistemas de Recuperacion de Informacion
+## Entrega Final Sistemas de Recuperación de Información
 
-#### Objetivo:
-Implementacion del Modelo Vectorial
-
-#### Autor:
+### Autor:
 - Leandro Hernandez C-312
 
-#### Forma de Ejecucion:
-```python
-python main.py query:=str # umbral = 0.4
-python main.py query:=str umbral:=float # query entre comillas
+### Modelos Implementados
+- Boolean Model
+- Vector Model
+- Latent Semantic Indexing
 
+
+### Datasets utilizados:
+- Cranfield
+- Cisi
+- Medline
+
+### Pre-requisites
+```bash
+python -m pip install -r requirements.txt
 ```
-**Nota**: Dataset utilizado: Cranfield
+### Config
+```
+[cran]
+docs: "path/to/cran/docs"
+qry: "path/to/cran/queries"
+rel: "path/to/cran/qry_doc_rel"
+
+[med]
+...
+
+[cisi]
+...
+
+[flask]
+host: "localhost"
+port: 3000
+```
+
+### Forma de Ejecucion:
+```bash
+python -m sri
+```
+
+### Unit tests:
+```bash
+python -m pytest
+```
