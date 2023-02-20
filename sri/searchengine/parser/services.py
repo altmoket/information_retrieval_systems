@@ -1,50 +1,28 @@
-from . import cranfield, cisi, medline
+from . import medline, cisi, cranfield
 
 class CorpusService:
-    def __init__(self, parser) -> None:
-        self._parser = parser
-    
-    def get_documents(self, PATH_TO_FILE):
-        data = self.get_data(PATH_TO_FILE)
-        txt_data = self.get_txt_data(txt_list=data)
+    def __init__(self, cranfield_parser:cranfield.CranfieldParser, cisi_parser: cisi.CisiParser, medline_parser: medline.MedlineParser) -> None:
+        self.cranfield_parser = cranfield_parser
+        self.cisi_parser = cisi_parser
+        self.medline_parser = medline_parser
+        self.activate_collection()
+        
+    def activate_collection(self, collection:str = "cranfield"):
+        if collection == "cranfield":
+            self._parser = self.cranfield_parser
+        elif collection == "medline":
+            self._parser = self.medline_parser
+        elif collection == "cisi":
+            self._parser = self.cisi_parser
+
+    def get_documents(self):
+        txt_data = self._parser.get_txt_data()
         return txt_data
-    
-    def get_queries(self, PATH_TO_FILE):
-        data = self.get_data(PATH_TO_FILE)
-        txt_data = self.get_qry_data(qry_list=data)
-        return txt_data
-    
-    def get_rel(self, PATH_TO_REL):
-        rel = self.get_rel_numpy(PATH_TO_REL)
+
+    def get_queries(self):
+        qry_data = self._parser.get_qry_data()
+        return qry_data
+
+    def get_rel(self):
+        rel = self._parser.get_rel_numpy()
         return rel
-    
-    def _get_data(self, PATH_TO_FILE):
-        return self._parser.get_data(PATH_TO_FILE=PATH_TO_FILE)
-    
-    
-    def _get_txt_data(self, txt_list: list[str]):
-        return self._parser.get_txt_data(txt_list)
-    
-    
-    def _get_qry_data(self, qry_list: list[str]):
-        return self._parser.get_qry_data(qry_list)
-    
-    
-    def _get_rel(self, PATH_TO_REL: str):
-        return self._parser.get_rel(PATH_TO_REL)
-    
-    
-    def _get_rel_numpy(self, PATH_TO_REL: str):
-        return self._parser.get_rel_numpy(PATH_TO_REL)
-
-class CranfieldService(CorpusService):
-    def __init__(self, cranfield: cranfield) -> None:
-        super().__init__(cranfield)
-
-class MedlineService(CorpusService):
-    def __init__(self, medline: medline) -> None:
-        super().__init__(medline)
-
-class CisiService(CorpusService):
-    def __init__(self, cisi: cisi) -> None:
-        super().__init__(cisi)
