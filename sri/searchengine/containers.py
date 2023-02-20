@@ -1,5 +1,6 @@
 from dependency_injector import containers, providers
 from .parser.containers import ParserContainer
+from .services import SearchEngineService
 
 class SearchEngineContainer(containers.DeclarativeContainer):
     
@@ -10,4 +11,9 @@ class SearchEngineContainer(containers.DeclarativeContainer):
         cranfield_config = config.cran,
         medline_config = config.med,
         cisi_config = config.cisi
+    )
+    
+    search_engine_service = providers.Singleton(
+        SearchEngineService,
+        parser_service = parser_package.parser_service
     )
