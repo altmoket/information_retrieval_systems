@@ -1,8 +1,5 @@
 from sri.searchengine.models.vectorial import VectorModel
 class TestVectorModel:
-    from sri.searchengine.parser.services import CranfieldService
-    # import sri.searchengine.parser.cranfield as cranfield
-    # parser = CranfieldService(cranfield=cranfield)
     model = VectorModel()
     
     def test_frequency(self):
