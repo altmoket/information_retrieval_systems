@@ -7,7 +7,7 @@ class CorpusParser:
         self.qry_path = config.qry
         self.rel_path = config.rel
     
-    def get_data(self):
+    def get_data(self, PATH_TO_FILE: str):
         NotImplementedError()
 
     
