@@ -1,21 +1,34 @@
 
 from dependency_injector import containers, providers
-from .services import CranfieldService, CisiService, MedlineService
-from . import cranfield, cisi, medline
+from .services import CorpusService
+
+from . import medline, cisi, cranfield
 
 class ParserContainer(containers.DeclarativeContainer):
     
-    cisi_service = providers.Singleton(
-        CisiService,
-        cisi = cisi
+    cranfield_config = providers.Dependency()
+    medline_config = providers.Dependency()
+    cisi_config = providers.Dependency()
+    
+    cranfield_parser = providers.Singleton(
+        cranfield.CranfieldParser,
+        config = cranfield_config
     )
     
-    cranfield_service = providers.Singleton(
-        CranfieldService,
-        cranfield = cranfield
+    medline_parser = providers.Singleton(
+        medline.MedlineParser,
+        config = medline_config
     )
     
-    medline_service = providers.Singleton(
-        MedlineService,
-        medline = medline
+    cisi_parser = providers.Singleton(
+        cisi.CisiParser,
+        config = cisi_config
     )
+    
+    corpus_service = providers.Singleton(
+        CorpusService,
+        cranfield_parser = cranfield_parser,
+        medline_parser = medline_parser,
+        cisi_parser = cisi_parser
+    )
+    
