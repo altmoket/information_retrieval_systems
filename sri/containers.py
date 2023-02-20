@@ -7,7 +7,8 @@ class SriContainer(containers.DeclarativeContainer):
     config = providers.Configuration()
     
     search_engine_package = providers.Singleton(
-        SearchEngineContainer
+        SearchEngineContainer,
+        config = config
     )
     
     
