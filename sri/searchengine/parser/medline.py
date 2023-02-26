@@ -2,11 +2,11 @@ import re
 import numpy as np
 from collections import defaultdict
 from .interfaces import CorpusParser
-
+from ..tokenizers.services import TokenizerService
 
 class MedlineParser(CorpusParser):
-    def __init__(self, config) -> None:
-        super().__init__(config)
+    def __init__(self, config, tokenizer_service: TokenizerService) -> None:
+        super().__init__(config, tokenizer_service)
 
     def get_data(self, PATH_TO_FILE):
         ID_marker = re.compile('\.I.')
@@ -25,6 +25,7 @@ class MedlineParser(CorpusParser):
             id = entries[0].strip()
             text = entries[1]
             txt_data[id]['text'] = text
+            txt_data[id]['tokens'] = self._tokenizer.tokenize(text)
         return txt_data
 
     def get_qry_data(self):
@@ -35,6 +36,7 @@ class MedlineParser(CorpusParser):
             line = qry_list[n+1]
             _, question = re.split(chunk_start, line)
             qry_data[n+1]['question'] = question
+            qry_data[n+1]['tokens'] = self._tokenizer.tokenize(question)
         return qry_data
 
     def get_rel(self):

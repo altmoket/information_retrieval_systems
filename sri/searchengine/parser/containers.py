@@ -9,20 +9,24 @@ class ParserContainer(containers.DeclarativeContainer):
     cranfield_config = providers.Dependency()
     medline_config = providers.Dependency()
     cisi_config = providers.Dependency()
+    tokenizer_service = providers.Dependency()
     
     cranfield_parser = providers.Singleton(
         cranfield.CranfieldParser,
-        config = cranfield_config
+        config = cranfield_config,
+        tokenizer_service = tokenizer_service
     )
     
     medline_parser = providers.Singleton(
         medline.MedlineParser,
-        config = medline_config
+        config = medline_config,
+        tokenizer_service = tokenizer_service
     )
     
     cisi_parser = providers.Singleton(
         cisi.CisiParser,
-        config = cisi_config
+        config = cisi_config,
+        tokenizer_service = tokenizer_service
     )
     
     corpus_service = providers.Singleton(

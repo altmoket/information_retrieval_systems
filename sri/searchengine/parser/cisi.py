@@ -2,11 +2,11 @@ import re
 import numpy as np
 from collections import defaultdict
 from .interfaces import CorpusParser
-
+from ..tokenizers.services import TokenizerService
 
 class CisiParser(CorpusParser):
-    def __init__(self, config) -> None:
-        super().__init__(config)
+    def __init__(self, config, tokenizer_service: TokenizerService) -> None:
+        super().__init__(config, tokenizer_service)
 
     def get_data(self, PATH_TO_FILE):
         ID_marker = re.compile('\.I\s')
@@ -31,6 +31,7 @@ class CisiParser(CorpusParser):
             txt_data[id]['title'] = title
             txt_data[id]['author'] = author
             txt_data[id]['text'] = text
+            txt_data[id]['tokens'] = self._tokenizer.tokenize(text)
             txt_data[id]['cross_references'] = cross_references
 
         return txt_data
@@ -43,6 +44,7 @@ class CisiParser(CorpusParser):
             line = qry_list[n]
             _, question = re.split(chunk_start, line)
             qry_data[n+1]['question'] = question
+            qry_data[n+1]['tokens'] = self._tokenizer.tokenize(question)
         return qry_data
 
     def get_rel(self):
