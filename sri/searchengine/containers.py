@@ -4,7 +4,7 @@ from .services import SearchEngineService
 
 class SearchEngineContainer(containers.DeclarativeContainer):
     
-    config = providers.Dependency()
+    config = providers.Configuration()
     
     parser_package = providers.Container(
         ParserContainer,
@@ -15,5 +15,5 @@ class SearchEngineContainer(containers.DeclarativeContainer):
     
     search_engine_service = providers.Singleton(
         SearchEngineService,
-        parser_service = parser_package.parser_service
+        parser_service = parser_package.corpus_service
     )
