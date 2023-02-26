@@ -21,9 +21,9 @@ python -m pip install -r requirements.txt
 ### Config
 ```
 [cran]
-docs: "path/to/cran/docs"
-qry: "path/to/cran/queries"
-rel: "path/to/cran/qry_doc_rel"
+docs: path/to/cran/docs
+qry: path/to/cran/queries
+rel: path/to/cran/qry_doc_rel
 
 [med]
 ...
@@ -32,7 +32,7 @@ rel: "path/to/cran/qry_doc_rel"
 ...
 
 [flask]
-host: "localhost"
+host: localhost
 port: 3000
 ```
 
