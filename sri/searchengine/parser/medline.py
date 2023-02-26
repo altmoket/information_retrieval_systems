@@ -43,7 +43,7 @@ class MedlineParser(CorpusParser):
         with open(self.rel_path, 'r') as f:
             for line in f:
                 line = re.split(' ', line)
-                med_rel[int(line[0])].append(line[2])
+                med_rel[int(line[0])].append(int(line[2]))
 
         return med_rel
 

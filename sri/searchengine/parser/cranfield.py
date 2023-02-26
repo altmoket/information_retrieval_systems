@@ -49,7 +49,7 @@ class CranfieldParser(CorpusParser):
         with open(self.rel_path, 'r') as f:
             for line in f:
                 line = re.split(' ', line)
-                cran_rel[int(line[0])].append(line[1])
+                cran_rel[int(line[0])].append(int(line[1]))
 
         return cran_rel
 

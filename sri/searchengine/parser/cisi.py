@@ -22,7 +22,7 @@ class CisiParser(CorpusParser):
         txt_data = defaultdict(dict)
         for line in txt_list:
             entries = re.split(chunk_start, line)
-            id = entries[0].strip()
+            id = int(entries[0].strip())
             title = entries[1]
             author = entries[2]
             text = entries[3]
@@ -39,8 +39,8 @@ class CisiParser(CorpusParser):
         qry_list = self.get_data(self.qry_path)
         chunk_start = re.compile('\.[W]')
         qry_data = defaultdict(dict)
-        for n in range(0, len(qry_list)-1):
-            line = qry_list[n+1]
+        for n in range(len(qry_list)):
+            line = qry_list[n]
             _, question = re.split(chunk_start, line)
             qry_data[n+1]['question'] = question
         return qry_data
@@ -51,7 +51,7 @@ class CisiParser(CorpusParser):
         with open(self.rel_path, 'r') as f:
             for line in f:
                 line = re.findall(r"\d+\.\d+| \d+", line)
-                cisi_rel[int(line[0])].append(line[1])
+                cisi_rel[int(line[0])].append(int(line[1]))
         return cisi_rel
 
     def get_rel_numpy(self):

@@ -3,9 +3,9 @@
 
 class CorpusParser:
     def __init__(self, config) -> None:
-        self.docs_path = config.docs
-        self.qry_path = config.qry
-        self.rel_path = config.rel
+        self.docs_path = config["docs"]
+        self.qry_path = config["qry"]
+        self.rel_path = config["rel"]
     
     def get_data(self, PATH_TO_FILE: str):
         NotImplementedError()
