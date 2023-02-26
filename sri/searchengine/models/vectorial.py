@@ -1,10 +1,16 @@
-
+import json
+from ..parser.services import CorpusService
 Doc = list[str]
 
 
 class VectorModel:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, parser_service: CorpusService) -> None:
+        self._parser = parser_service
+        
+    def activate_corpus(self, corpus_name: str = "cranfield"):
+        self._parser.activate_corpus(corpus_name)
+        info:dict = json.loads(self._parser.get_documents())
+        self.docs = [value["tokens"] for _, value in info.items()]
 
     def frequency(self, term: str, doc: Doc) -> int:
         return doc.count(term)
@@ -50,4 +56,16 @@ class VectorModel:
         return result
     
     def get_sim(self, doc:Doc, query:list[str], docs:list[Doc]):
-        pass
+        for term in query:
+            weight_term_doc = self.get_weight(term, doc, docs)
+            weight_term_query = self.get_weight_query()
+            
+
+    def save_in_json(self, data, filename):
+        with open(f'db/preprocess/vector_{self.corpus_name}_{filename}.json','w') as f:
+            result = json.dump(data, f, indent=4)
+            return result
+            
+    def get_file(self, filepath):
+        with open(filepath, "r") as f:
+            return f.read()
