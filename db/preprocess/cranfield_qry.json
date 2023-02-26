@@ -1,674 +1,3356 @@
 {
     "1": {
-        "question": " what are the structural and aeroelastic problems associated with flight of high speed aircraft . "
+        "question": " what are the structural and aeroelastic problems associated with flight of high speed aircraft . ",
+        "tokens": [
+            "structural",
+            "aeroelastic",
+            "problem",
+            "associated",
+            "flight",
+            "high",
+            "speed",
+            "aircraft"
+        ]
     },
     "2": {
-        "question": " what problems of heat conduction in composite slabs have been solved so far . "
+        "question": " what problems of heat conduction in composite slabs have been solved so far . ",
+        "tokens": [
+            "problem",
+            "heat",
+            "conduction",
+            "composite",
+            "slab",
+            "solved",
+            "far"
+        ]
     },
     "3": {
-        "question": " can a criterion be developed to show empirically the validity of flow solutions for chemically reacting gas mixtures based on the simplifying assumption of instantaneous local chemical equilibrium . "
+        "question": " can a criterion be developed to show empirically the validity of flow solutions for chemically reacting gas mixtures based on the simplifying assumption of instantaneous local chemical equilibrium . ",
+        "tokens": [
+            "criterion",
+            "developed",
+            "show",
+            "empirically",
+            "validity",
+            "flow",
+            "solution",
+            "chemically",
+            "reacting",
+            "gas",
+            "mixture",
+            "based",
+            "simplifying",
+            "assumption",
+            "instantaneous",
+            "local",
+            "chemical",
+            "equilibrium"
+        ]
     },
     "4": {
-        "question": " what chemical kinetic system is applicable to hypersonic aerodynamic problems . "
+        "question": " what chemical kinetic system is applicable to hypersonic aerodynamic problems . ",
+        "tokens": [
+            "chemical",
+            "kinetic",
+            "system",
+            "applicable",
+            "hypersonic",
+            "aerodynamic",
+            "problem"
+        ]
     },
     "5": {
-        "question": " what theoretical and experimental guides do we have as to turbulent couette flow behaviour . "
+        "question": " what theoretical and experimental guides do we have as to turbulent couette flow behaviour . ",
+        "tokens": [
+            "theoretical",
+            "experimental",
+            "guide",
+            "turbulent",
+            "couette",
+            "flow",
+            "behaviour"
+        ]
     },
     "6": {
-        "question": " is it possible to relate the available pressure distributions for an ogive forebody at zero angle of attack to the lower surface pressures of an equivalent ogive forebody at angle of attack . "
+        "question": " is it possible to relate the available pressure distributions for an ogive forebody at zero angle of attack to the lower surface pressures of an equivalent ogive forebody at angle of attack . ",
+        "tokens": [
+            "possible",
+            "relate",
+            "available",
+            "pressure",
+            "distribution",
+            "ogive",
+            "forebody",
+            "zero",
+            "angle",
+            "attack",
+            "lower",
+            "surface",
+            "pressure",
+            "equivalent",
+            "ogive",
+            "forebody",
+            "angle",
+            "attack"
+        ]
     },
     "7": {
-        "question": " what methods -dash exact or approximate -dash are presently available for predicting body pressures at angle of attack. "
+        "question": " what methods -dash exact or approximate -dash are presently available for predicting body pressures at angle of attack. ",
+        "tokens": [
+            "method",
+            "dash",
+            "exact",
+            "approximate",
+            "dash",
+            "presently",
+            "available",
+            "predicting",
+            "body",
+            "pressure",
+            "angle",
+            "attack"
+        ]
     },
     "8": {
-        "question": " papers on internal /slip flow/ heat transfer studies . "
+        "question": " papers on internal /slip flow/ heat transfer studies . ",
+        "tokens": [
+            "paper",
+            "internal",
+            "slip",
+            "flow",
+            "heat",
+            "transfer",
+            "study"
+        ]
     },
     "9": {
-        "question": " are real-gas transport properties for air available over a wide range of enthalpies and densities . "
+        "question": " are real-gas transport properties for air available over a wide range of enthalpies and densities . ",
+        "tokens": [
+            "realgas",
+            "transport",
+            "property",
+            "air",
+            "available",
+            "wide",
+            "range",
+            "enthalpy",
+            "density"
+        ]
     },
     "10": {
-        "question": " is it possible to find an analytical,  similar solution of the strong blast wave problem in the newtonian approximation . "
+        "question": " is it possible to find an analytical,  similar solution of the strong blast wave problem in the newtonian approximation . ",
+        "tokens": [
+            "possible",
+            "find",
+            "analytical",
+            "similar",
+            "solution",
+            "strong",
+            "blast",
+            "wave",
+            "problem",
+            "newtonian",
+            "approximation"
+        ]
     },
     "11": {
-        "question": " how can the aerodynamic performance of channel flow ground effect machines be calculated . "
+        "question": " how can the aerodynamic performance of channel flow ground effect machines be calculated . ",
+        "tokens": [
+            "aerodynamic",
+            "performance",
+            "channel",
+            "flow",
+            "ground",
+            "effect",
+            "machine",
+            "calculated"
+        ]
     },
     "12": {
-        "question": " what is the basic mechanism of the transonic aileron buzz . "
+        "question": " what is the basic mechanism of the transonic aileron buzz . ",
+        "tokens": [
+            "basic",
+            "mechanism",
+            "transonic",
+            "aileron",
+            "buzz"
+        ]
     },
     "13": {
-        "question": " papers on shock-sound wave interaction . "
+        "question": " papers on shock-sound wave interaction . ",
+        "tokens": [
+            "paper",
+            "shocksound",
+            "wave",
+            "interaction"
+        ]
     },
     "14": {
-        "question": " material properties of photoelastic materials . "
+        "question": " material properties of photoelastic materials . ",
+        "tokens": [
+            "material",
+            "property",
+            "photoelastic",
+            "material"
+        ]
     },
     "15": {
-        "question": " can the transverse potential flow about a body of revolution be calculated efficiently by an electronic computer . "
+        "question": " can the transverse potential flow about a body of revolution be calculated efficiently by an electronic computer . ",
+        "tokens": [
+            "transverse",
+            "potential",
+            "flow",
+            "body",
+            "revolution",
+            "calculated",
+            "efficiently",
+            "electronic",
+            "computer"
+        ]
     },
     "16": {
-        "question": " can the three-dimensional problem of a transverse potential flow about a body of revolution be reduced to a two-dimensional problem . "
+        "question": " can the three-dimensional problem of a transverse potential flow about a body of revolution be reduced to a two-dimensional problem . ",
+        "tokens": [
+            "threedimensional",
+            "problem",
+            "transverse",
+            "potential",
+            "flow",
+            "body",
+            "revolution",
+            "reduced",
+            "twodimensional",
+            "problem"
+        ]
     },
     "17": {
-        "question": " are experimental pressure distributions on bodies of revolution at angle of attack available . "
+        "question": " are experimental pressure distributions on bodies of revolution at angle of attack available . ",
+        "tokens": [
+            "experimental",
+            "pressure",
+            "distribution",
+            "body",
+            "revolution",
+            "angle",
+            "attack",
+            "available"
+        ]
     },
     "18": {
-        "question": " does there exist a good basic treatment of the dynamics of re-entry combining consideration of realistic effects with relative simplicity of results . "
+        "question": " does there exist a good basic treatment of the dynamics of re-entry combining consideration of realistic effects with relative simplicity of results . ",
+        "tokens": [
+            "exist",
+            "good",
+            "basic",
+            "treatment",
+            "dynamic",
+            "reentry",
+            "combining",
+            "consideration",
+            "realistic",
+            "effect",
+            "relative",
+            "simplicity",
+            "result"
+        ]
     },
     "19": {
-        "question": " has anyone formally determined the influence of joule heating,  produced by the induced current,  in magnetohydrodynamic free convection flows under general conditions . "
+        "question": " has anyone formally determined the influence of joule heating,  produced by the induced current,  in magnetohydrodynamic free convection flows under general conditions . ",
+        "tokens": [
+            "anyone",
+            "formally",
+            "determined",
+            "influence",
+            "joule",
+            "heating",
+            "produced",
+            "induced",
+            "current",
+            "magnetohydrodynamic",
+            "free",
+            "convection",
+            "flow",
+            "general",
+            "condition"
+        ]
     },
     "20": {
-        "question": " why does the compressibility transformation fail to correlate the high speed data for helium and air . "
+        "question": " why does the compressibility transformation fail to correlate the high speed data for helium and air . ",
+        "tokens": [
+            "compressibility",
+            "transformation",
+            "fail",
+            "correlate",
+            "high",
+            "speed",
+            "data",
+            "helium",
+            "air"
+        ]
     },
     "21": {
-        "question": " did anyone else discover that the turbulent skin friction is not over sensitive to the nature of the variation of the viscosity with temperature . "
+        "question": " did anyone else discover that the turbulent skin friction is not over sensitive to the nature of the variation of the viscosity with temperature . ",
+        "tokens": [
+            "anyone",
+            "else",
+            "discover",
+            "turbulent",
+            "skin",
+            "friction",
+            "sensitive",
+            "nature",
+            "variation",
+            "viscosity",
+            "temperature"
+        ]
     },
     "22": {
-        "question": " what progress has been made in research on unsteady aerodynamics . "
+        "question": " what progress has been made in research on unsteady aerodynamics . ",
+        "tokens": [
+            "progress",
+            "made",
+            "research",
+            "unsteady",
+            "aerodynamics"
+        ]
     },
     "23": {
-        "question": " what are the factors which influence the time required to invert large structural matrices . "
+        "question": " what are the factors which influence the time required to invert large structural matrices . ",
+        "tokens": [
+            "factor",
+            "influence",
+            "time",
+            "required",
+            "invert",
+            "large",
+            "structural",
+            "matrix"
+        ]
     },
     "24": {
-        "question": " does a practical flow follow the theoretical concepts for the interaction between adjacent blade rows of a supersonic cascade . "
+        "question": " does a practical flow follow the theoretical concepts for the interaction between adjacent blade rows of a supersonic cascade . ",
+        "tokens": [
+            "practical",
+            "flow",
+            "follow",
+            "theoretical",
+            "concept",
+            "interaction",
+            "adjacent",
+            "blade",
+            "row",
+            "supersonic",
+            "cascade"
+        ]
     },
     "25": {
-        "question": " what is a single approximate formula for the displacement thickness of a laminar boundary layer in compressible flow on a flat plate . "
+        "question": " what is a single approximate formula for the displacement thickness of a laminar boundary layer in compressible flow on a flat plate . ",
+        "tokens": [
+            "single",
+            "approximate",
+            "formula",
+            "displacement",
+            "thickness",
+            "laminar",
+            "boundary",
+            "layer",
+            "compressible",
+            "flow",
+            "flat",
+            "plate"
+        ]
     },
     "26": {
-        "question": " how is the design of ring or part ring wings by linear theory affected by thickness . "
+        "question": " how is the design of ring or part ring wings by linear theory affected by thickness . ",
+        "tokens": [
+            "design",
+            "ring",
+            "part",
+            "ring",
+            "wing",
+            "linear",
+            "theory",
+            "affected",
+            "thickness"
+        ]
     },
     "27": {
-        "question": " what application has the linear theory design of curved wings . "
+        "question": " what application has the linear theory design of curved wings . ",
+        "tokens": [
+            "application",
+            "linear",
+            "theory",
+            "design",
+            "curved",
+            "wing"
+        ]
     },
     "28": {
-        "question": " what is the effect of cross sectional shape on the flow over simple delta wings with sharp leading edges . "
+        "question": " what is the effect of cross sectional shape on the flow over simple delta wings with sharp leading edges . ",
+        "tokens": [
+            "effect",
+            "cross",
+            "sectional",
+            "shape",
+            "flow",
+            "simple",
+            "delta",
+            "wing",
+            "sharp",
+            "leading",
+            "edge"
+        ]
     },
     "29": {
-        "question": " papers on flow visualization on slender conical wings . "
+        "question": " papers on flow visualization on slender conical wings . ",
+        "tokens": [
+            "paper",
+            "flow",
+            "visualization",
+            "slender",
+            "conical",
+            "wing"
+        ]
     },
     "30": {
-        "question": " what size of end plate can be safely used to simulate two-dimensional flow conditions over a bluff cylindrical body of finite aspect ratio . "
+        "question": " what size of end plate can be safely used to simulate two-dimensional flow conditions over a bluff cylindrical body of finite aspect ratio . ",
+        "tokens": [
+            "size",
+            "end",
+            "plate",
+            "safely",
+            "used",
+            "simulate",
+            "twodimensional",
+            "flow",
+            "condition",
+            "bluff",
+            "cylindrical",
+            "body",
+            "finite",
+            "aspect",
+            "ratio"
+        ]
     },
     "31": {
-        "question": " to find an approximate correction for thickness in slender thin-wing theory . "
+        "question": " to find an approximate correction for thickness in slender thin-wing theory . ",
+        "tokens": [
+            "find",
+            "approximate",
+            "correction",
+            "thickness",
+            "slender",
+            "thinwing",
+            "theory"
+        ]
     },
     "32": {
-        "question": " how do interference-free longitudinal stability measurements (made using free-flight models) compare with similar measurements made in a low-blockage wind tunnel . "
+        "question": " how do interference-free longitudinal stability measurements (made using free-flight models) compare with similar measurements made in a low-blockage wind tunnel . ",
+        "tokens": [
+            "interferencefree",
+            "longitudinal",
+            "stability",
+            "measurement",
+            "made",
+            "using",
+            "freeflight",
+            "model",
+            "compare",
+            "similar",
+            "measurement",
+            "made",
+            "lowblockage",
+            "wind",
+            "tunnel"
+        ]
     },
     "33": {
-        "question": " have wind tunnel interference effects been investigated on a systematic basis . "
+        "question": " have wind tunnel interference effects been investigated on a systematic basis . ",
+        "tokens": [
+            "wind",
+            "tunnel",
+            "interference",
+            "effect",
+            "investigated",
+            "systematic",
+            "basis"
+        ]
     },
     "34": {
-        "question": " are there any papers dealing with acoustic wave propagation in reacting gases . "
+        "question": " are there any papers dealing with acoustic wave propagation in reacting gases . ",
+        "tokens": [
+            "paper",
+            "dealing",
+            "acoustic",
+            "wave",
+            "propagation",
+            "reacting",
+            "gas"
+        ]
     },
     "35": {
-        "question": " has anyone investigated relaxation effects on gaseous heat transfer to a suddenly heated wall . "
+        "question": " has anyone investigated relaxation effects on gaseous heat transfer to a suddenly heated wall . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "relaxation",
+            "effect",
+            "gaseous",
+            "heat",
+            "transfer",
+            "suddenly",
+            "heated",
+            "wall"
+        ]
     },
     "36": {
-        "question": " are there any theoretical methods for predicting base pressure . "
+        "question": " are there any theoretical methods for predicting base pressure . ",
+        "tokens": [
+            "theoretical",
+            "method",
+            "predicting",
+            "base",
+            "pressure"
+        ]
     },
     "37": {
-        "question": " does transition in the hypersonic wake depend on body geometry and size "
+        "question": " does transition in the hypersonic wake depend on body geometry and size ",
+        "tokens": [
+            "transition",
+            "hypersonic",
+            "wake",
+            "depend",
+            "body",
+            "geometry",
+            "size"
+        ]
     },
     "38": {
-        "question": " how can one detect transition phenomena in boundary layers . "
+        "question": " how can one detect transition phenomena in boundary layers . ",
+        "tokens": [
+            "one",
+            "detect",
+            "transition",
+            "phenomenon",
+            "boundary",
+            "layer"
+        ]
     },
     "39": {
-        "question": " how can one detect transition phenomena in hypersonic wakes . "
+        "question": " how can one detect transition phenomena in hypersonic wakes . ",
+        "tokens": [
+            "one",
+            "detect",
+            "transition",
+            "phenomenon",
+            "hypersonic",
+            "wake"
+        ]
     },
     "40": {
-        "question": " has anyone investigated and developed a simple model for the vortex wake behind a cruciform wing . "
+        "question": " has anyone investigated and developed a simple model for the vortex wake behind a cruciform wing . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "developed",
+            "simple",
+            "model",
+            "vortex",
+            "wake",
+            "behind",
+            "cruciform",
+            "wing"
+        ]
     },
     "41": {
-        "question": " what is a criterion that the transonic flow around an airfoil with a round leading edge be validly analyzed by the linearized transonic flow theory . "
+        "question": " what is a criterion that the transonic flow around an airfoil with a round leading edge be validly analyzed by the linearized transonic flow theory . ",
+        "tokens": [
+            "criterion",
+            "transonic",
+            "flow",
+            "around",
+            "airfoil",
+            "round",
+            "leading",
+            "edge",
+            "validly",
+            "analyzed",
+            "linearized",
+            "transonic",
+            "flow",
+            "theory"
+        ]
     },
     "42": {
-        "question": " can the transonic flow around an arbitrary smooth thin airfoil be analysed in a simple approximate way . "
+        "question": " can the transonic flow around an arbitrary smooth thin airfoil be analysed in a simple approximate way . ",
+        "tokens": [
+            "transonic",
+            "flow",
+            "around",
+            "arbitrary",
+            "smooth",
+            "thin",
+            "airfoil",
+            "analysed",
+            "simple",
+            "approximate",
+            "way"
+        ]
     },
     "43": {
-        "question": " what are the details of the rigorous kinetic theory of gases . (chapman-enskog theory) . "
+        "question": " what are the details of the rigorous kinetic theory of gases . (chapman-enskog theory) . ",
+        "tokens": [
+            "detail",
+            "rigorous",
+            "kinetic",
+            "theory",
+            "gas",
+            "chapmanenskog",
+            "theory"
+        ]
     },
     "44": {
-        "question": " has anyone investigated the effect of surface mass transfer on hypersonic viscous interactions . "
+        "question": " has anyone investigated the effect of surface mass transfer on hypersonic viscous interactions . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "effect",
+            "surface",
+            "mass",
+            "transfer",
+            "hypersonic",
+            "viscous",
+            "interaction"
+        ]
     },
     "45": {
-        "question": " what is the combined effect of surface heat and mass transfer on hypersonic flow . "
+        "question": " what is the combined effect of surface heat and mass transfer on hypersonic flow . ",
+        "tokens": [
+            "combined",
+            "effect",
+            "surface",
+            "heat",
+            "mass",
+            "transfer",
+            "hypersonic",
+            "flow"
+        ]
     },
     "46": {
-        "question": " what are the existing solutions for hypersonic viscous interactions over an insulated flat plate . "
+        "question": " what are the existing solutions for hypersonic viscous interactions over an insulated flat plate . ",
+        "tokens": [
+            "existing",
+            "solution",
+            "hypersonic",
+            "viscous",
+            "interaction",
+            "insulated",
+            "flat",
+            "plate"
+        ]
     },
     "47": {
-        "question": " what controls leading-edge attachment at transonic speeds . "
+        "question": " what controls leading-edge attachment at transonic speeds . ",
+        "tokens": [
+            "control",
+            "leadingedge",
+            "attachment",
+            "transonic",
+            "speed"
+        ]
     },
     "48": {
-        "question": " can the three-point boundary-value problem for the blasius equation be integrated numerically,  using suitable transformations,  without iteration on the boundary conditions . "
+        "question": " can the three-point boundary-value problem for the blasius equation be integrated numerically,  using suitable transformations,  without iteration on the boundary conditions . ",
+        "tokens": [
+            "threepoint",
+            "boundaryvalue",
+            "problem",
+            "blasius",
+            "equation",
+            "integrated",
+            "numerically",
+            "using",
+            "suitable",
+            "transformation",
+            "without",
+            "iteration",
+            "boundary",
+            "condition"
+        ]
     },
     "49": {
-        "question": " what are the effects of small amounts of gas rarefaction on the characteristics of the boundary layers on slender bodies of revolution . "
+        "question": " what are the effects of small amounts of gas rarefaction on the characteristics of the boundary layers on slender bodies of revolution . ",
+        "tokens": [
+            "effect",
+            "small",
+            "amount",
+            "gas",
+            "rarefaction",
+            "characteristic",
+            "boundary",
+            "layer",
+            "slender",
+            "body",
+            "revolution"
+        ]
     },
     "50": {
-        "question": " what is the available information pertaining to boundary layers on very slender bodies of revolution in continuum flow (the ?transverse curvature  effect) . "
+        "question": " what is the available information pertaining to boundary layers on very slender bodies of revolution in continuum flow (the ?transverse curvature  effect) . ",
+        "tokens": [
+            "available",
+            "information",
+            "pertaining",
+            "boundary",
+            "layer",
+            "slender",
+            "body",
+            "revolution",
+            "continuum",
+            "flow",
+            "transverse",
+            "curvature",
+            "effect"
+        ]
     },
     "51": {
-        "question": " what is the available information pertaining to the effect of slight rarefaction on boundary layer flows (the ?slip? effect) . "
+        "question": " what is the available information pertaining to the effect of slight rarefaction on boundary layer flows (the ?slip? effect) . ",
+        "tokens": [
+            "available",
+            "information",
+            "pertaining",
+            "effect",
+            "slight",
+            "rarefaction",
+            "boundary",
+            "layer",
+            "flow",
+            "slip",
+            "effect"
+        ]
     },
     "52": {
-        "question": " what investigations have been made of the flow field about a body moving through a rarefied,  partially ionized gas in the presence of a magnetic field . "
+        "question": " what investigations have been made of the flow field about a body moving through a rarefied,  partially ionized gas in the presence of a magnetic field . ",
+        "tokens": [
+            "investigation",
+            "made",
+            "flow",
+            "field",
+            "body",
+            "moving",
+            "rarefied",
+            "partially",
+            "ionized",
+            "gas",
+            "presence",
+            "magnetic",
+            "field"
+        ]
     },
     "53": {
-        "question": " how is the heat transfer downstream of the mass transfer region effected by mass transfer at the nose of a blunted cone . "
+        "question": " how is the heat transfer downstream of the mass transfer region effected by mass transfer at the nose of a blunted cone . ",
+        "tokens": [
+            "heat",
+            "transfer",
+            "downstream",
+            "mass",
+            "transfer",
+            "region",
+            "effected",
+            "mass",
+            "transfer",
+            "nose",
+            "blunted",
+            "cone"
+        ]
     },
     "54": {
-        "question": " to what extent can the available information for incompressible boundary layers be applied to problems involving compressible boundary layers . "
+        "question": " to what extent can the available information for incompressible boundary layers be applied to problems involving compressible boundary layers . ",
+        "tokens": [
+            "extent",
+            "available",
+            "information",
+            "incompressible",
+            "boundary",
+            "layer",
+            "applied",
+            "problem",
+            "involving",
+            "compressible",
+            "boundary",
+            "layer"
+        ]
     },
     "55": {
-        "question": " to what extent can readily available steady-state aerodynamic data be utilized to predict lifting-surface flutter characteristics . "
+        "question": " to what extent can readily available steady-state aerodynamic data be utilized to predict lifting-surface flutter characteristics . ",
+        "tokens": [
+            "extent",
+            "readily",
+            "available",
+            "steadystate",
+            "aerodynamic",
+            "data",
+            "utilized",
+            "predict",
+            "liftingsurface",
+            "flutter",
+            "characteristic"
+        ]
     },
     "56": {
-        "question": " what are the significant steady and non-steady flow characteristics which affect the flutter mechanism . "
+        "question": " what are the significant steady and non-steady flow characteristics which affect the flutter mechanism . ",
+        "tokens": [
+            "significant",
+            "steady",
+            "nonsteady",
+            "flow",
+            "characteristic",
+            "affect",
+            "flutter",
+            "mechanism"
+        ]
     },
     "57": {
-        "question": " is it possible to determine rates of forced convective heat transfer from heated cylinders of non-circular cross-section,  (the fluid flow being along the generators) . "
+        "question": " is it possible to determine rates of forced convective heat transfer from heated cylinders of non-circular cross-section,  (the fluid flow being along the generators) . ",
+        "tokens": [
+            "possible",
+            "determine",
+            "rate",
+            "forced",
+            "convective",
+            "heat",
+            "transfer",
+            "heated",
+            "cylinder",
+            "noncircular",
+            "crosssection",
+            "fluid",
+            "flow",
+            "along",
+            "generator"
+        ]
     },
     "58": {
-        "question": " how much is known about boundary layer flows along non-circular cylinders . "
+        "question": " how much is known about boundary layer flows along non-circular cylinders . ",
+        "tokens": [
+            "much",
+            "known",
+            "boundary",
+            "layer",
+            "flow",
+            "along",
+            "noncircular",
+            "cylinder"
+        ]
     },
     "59": {
-        "question": " is there any simple,  but practical,  method for numerical integration of the mixing problem (i.e. the blasius problem with three-point boundary conditions) . "
+        "question": " is there any simple,  but practical,  method for numerical integration of the mixing problem (i.e. the blasius problem with three-point boundary conditions) . ",
+        "tokens": [
+            "simple",
+            "practical",
+            "method",
+            "numerical",
+            "integration",
+            "mixing",
+            "problem",
+            "ie",
+            "blasius",
+            "problem",
+            "threepoint",
+            "boundary",
+            "condition"
+        ]
     },
     "60": {
-        "question": " does there exist a closed-form expression for the local heat transfer around a yawed cylinder . "
+        "question": " does there exist a closed-form expression for the local heat transfer around a yawed cylinder . ",
+        "tokens": [
+            "exist",
+            "closedform",
+            "expression",
+            "local",
+            "heat",
+            "transfer",
+            "around",
+            "yawed",
+            "cylinder"
+        ]
     },
     "61": {
-        "question": " how far around a cylinder and under what conditions of flow,  if any, is the velocity just outside of the boundary layer a linear function of the distance around the cylinder . "
+        "question": " how far around a cylinder and under what conditions of flow,  if any, is the velocity just outside of the boundary layer a linear function of the distance around the cylinder . ",
+        "tokens": [
+            "far",
+            "around",
+            "cylinder",
+            "condition",
+            "flow",
+            "velocity",
+            "outside",
+            "boundary",
+            "layer",
+            "linear",
+            "function",
+            "distance",
+            "around",
+            "cylinder"
+        ]
     },
     "62": {
-        "question": " where can i find pressure data on surfaces of swept cylinders . "
+        "question": " where can i find pressure data on surfaces of swept cylinders . ",
+        "tokens": [
+            "find",
+            "pressure",
+            "data",
+            "surface",
+            "swept",
+            "cylinder"
+        ]
     },
     "63": {
-        "question": " can't the static deflection shapes be used in predicting flutter in place of vibrational shapes . if so,  can we provide a justification by means of an example . "
+        "question": " can't the static deflection shapes be used in predicting flutter in place of vibrational shapes . if so,  can we provide a justification by means of an example . ",
+        "tokens": [
+            "ca",
+            "nt",
+            "static",
+            "deflection",
+            "shape",
+            "used",
+            "predicting",
+            "flutter",
+            "place",
+            "vibrational",
+            "shape",
+            "provide",
+            "justification",
+            "mean",
+            "example"
+        ]
     },
     "64": {
-        "question": " does the boundary layer on a flat plate in a shear flow induce a pressure gradient . "
+        "question": " does the boundary layer on a flat plate in a shear flow induce a pressure gradient . ",
+        "tokens": [
+            "boundary",
+            "layer",
+            "flat",
+            "plate",
+            "shear",
+            "flow",
+            "induce",
+            "pressure",
+            "gradient"
+        ]
     },
     "65": {
-        "question": " can the procedure of matching inner and outer solutions for a viscous flow problem be applied when the main stream is a shear flow . "
+        "question": " can the procedure of matching inner and outer solutions for a viscous flow problem be applied when the main stream is a shear flow . ",
+        "tokens": [
+            "procedure",
+            "matching",
+            "inner",
+            "outer",
+            "solution",
+            "viscous",
+            "flow",
+            "problem",
+            "applied",
+            "main",
+            "stream",
+            "shear",
+            "flow"
+        ]
     },
     "66": {
-        "question": " can series expansions be found for the boundary layer on a flat plate in a shear flow . "
+        "question": " can series expansions be found for the boundary layer on a flat plate in a shear flow . ",
+        "tokens": [
+            "series",
+            "expansion",
+            "found",
+            "boundary",
+            "layer",
+            "flat",
+            "plate",
+            "shear",
+            "flow"
+        ]
     },
     "67": {
-        "question": " what possible techniques are available for computing the injection distribution corresponding to an isothermal transpiration cooled hemisphere . "
+        "question": " what possible techniques are available for computing the injection distribution corresponding to an isothermal transpiration cooled hemisphere . ",
+        "tokens": [
+            "possible",
+            "technique",
+            "available",
+            "computing",
+            "injection",
+            "distribution",
+            "corresponding",
+            "isothermal",
+            "transpiration",
+            "cooled",
+            "hemisphere"
+        ]
     },
     "68": {
-        "question": " what is known regarding asymptotic solutions to the exact boundary layer equations . "
+        "question": " what is known regarding asymptotic solutions to the exact boundary layer equations . ",
+        "tokens": [
+            "known",
+            "regarding",
+            "asymptotic",
+            "solution",
+            "exact",
+            "boundary",
+            "layer",
+            "equation"
+        ]
     },
     "69": {
-        "question": " previous solutions to the boundary layer similarity equations . "
+        "question": " previous solutions to the boundary layer similarity equations . ",
+        "tokens": [
+            "previous",
+            "solution",
+            "boundary",
+            "layer",
+            "similarity",
+            "equation"
+        ]
     },
     "70": {
-        "question": " experimental results on hypersonic viscous interaction . "
+        "question": " experimental results on hypersonic viscous interaction . ",
+        "tokens": [
+            "experimental",
+            "result",
+            "hypersonic",
+            "viscous",
+            "interaction"
+        ]
     },
     "71": {
-        "question": " what has been done about viscous interactions in relatively low reynolds number flows,  particularly at high mach numbers . "
+        "question": " what has been done about viscous interactions in relatively low reynolds number flows,  particularly at high mach numbers . ",
+        "tokens": [
+            "done",
+            "viscous",
+            "interaction",
+            "relatively",
+            "low",
+            "reynolds",
+            "number",
+            "flow",
+            "particularly",
+            "high",
+            "mach",
+            "number"
+        ]
     },
     "72": {
-        "question": " what role does the effect of chemical reaction (particularly when out of equilibrium) play in the similitude laws governing hypersonic flows over slender aerodynamic bodies . "
+        "question": " what role does the effect of chemical reaction (particularly when out of equilibrium) play in the similitude laws governing hypersonic flows over slender aerodynamic bodies . ",
+        "tokens": [
+            "role",
+            "effect",
+            "chemical",
+            "reaction",
+            "particularly",
+            "equilibrium",
+            "play",
+            "similitude",
+            "law",
+            "governing",
+            "hypersonic",
+            "flow",
+            "slender",
+            "aerodynamic",
+            "body"
+        ]
     },
     "73": {
-        "question": " how significant is the possible pressure of a dissociated free stream with respect to the realization of hypersonic simulation in high enthalpy wind tunnels . "
+        "question": " how significant is the possible pressure of a dissociated free stream with respect to the realization of hypersonic simulation in high enthalpy wind tunnels . ",
+        "tokens": [
+            "significant",
+            "possible",
+            "pressure",
+            "dissociated",
+            "free",
+            "stream",
+            "respect",
+            "realization",
+            "hypersonic",
+            "simulation",
+            "high",
+            "enthalpy",
+            "wind",
+            "tunnel"
+        ]
     },
     "74": {
-        "question": " do the discrepancies among current analyses of the vorticity effect on stagnation-point heat transfer result primarily from the differences in the viscosity-temperature law assumed . "
+        "question": " do the discrepancies among current analyses of the vorticity effect on stagnation-point heat transfer result primarily from the differences in the viscosity-temperature law assumed . ",
+        "tokens": [
+            "discrepancy",
+            "among",
+            "current",
+            "analysis",
+            "vorticity",
+            "effect",
+            "stagnationpoint",
+            "heat",
+            "transfer",
+            "result",
+            "primarily",
+            "difference",
+            "viscositytemperature",
+            "law",
+            "assumed"
+        ]
     },
     "75": {
-        "question": " how far can one trust the linear viscosity-temperature solution assumed in some of the analyses of hypersonic shock layer at low reynolds number . "
+        "question": " how far can one trust the linear viscosity-temperature solution assumed in some of the analyses of hypersonic shock layer at low reynolds number . ",
+        "tokens": [
+            "far",
+            "one",
+            "trust",
+            "linear",
+            "viscositytemperature",
+            "solution",
+            "assumed",
+            "analysis",
+            "hypersonic",
+            "shock",
+            "layer",
+            "low",
+            "reynolds",
+            "number"
+        ]
     },
     "76": {
-        "question": " how close is the comparison of the shock layer theory with existing experiments in the low reynolds number (merged-layer) regime . "
+        "question": " how close is the comparison of the shock layer theory with existing experiments in the low reynolds number (merged-layer) regime . ",
+        "tokens": [
+            "close",
+            "comparison",
+            "shock",
+            "layer",
+            "theory",
+            "existing",
+            "experiment",
+            "low",
+            "reynolds",
+            "number",
+            "mergedlayer",
+            "regime"
+        ]
     },
     "77": {
-        "question": " has anyone explained the kink in the surge line of a multi-stage axial compressor . "
+        "question": " has anyone explained the kink in the surge line of a multi-stage axial compressor . ",
+        "tokens": [
+            "anyone",
+            "explained",
+            "kink",
+            "surge",
+            "line",
+            "multistage",
+            "axial",
+            "compressor"
+        ]
     },
     "78": {
-        "question": " have any aerodynamic derivatives been measured at hypersonic mach numbers and comparison been made with theoretical work . "
+        "question": " have any aerodynamic derivatives been measured at hypersonic mach numbers and comparison been made with theoretical work . ",
+        "tokens": [
+            "aerodynamic",
+            "derivative",
+            "measured",
+            "hypersonic",
+            "mach",
+            "number",
+            "comparison",
+            "made",
+            "theoretical",
+            "work"
+        ]
     },
     "79": {
-        "question": " are methods of measuring aerodynamic derivatives available which could be adopted for use in short running time facilities . "
+        "question": " are methods of measuring aerodynamic derivatives available which could be adopted for use in short running time facilities . ",
+        "tokens": [
+            "method",
+            "measuring",
+            "aerodynamic",
+            "derivative",
+            "available",
+            "could",
+            "adopted",
+            "use",
+            "short",
+            "running",
+            "time",
+            "facility"
+        ]
     },
     "80": {
-        "question": " what are wind-tunnel corrections for a two-dimensional aerofoil mounted off-centre in a tunnel . "
+        "question": " what are wind-tunnel corrections for a two-dimensional aerofoil mounted off-centre in a tunnel . ",
+        "tokens": [
+            "windtunnel",
+            "correction",
+            "twodimensional",
+            "aerofoil",
+            "mounted",
+            "offcentre",
+            "tunnel"
+        ]
     },
     "81": {
-        "question": " how do kuchemann's and multhopp's methods for calculating lift distributions on swept wings in subsonic flow compare with each other and with experiment . "
+        "question": " how do kuchemann's and multhopp's methods for calculating lift distributions on swept wings in subsonic flow compare with each other and with experiment . ",
+        "tokens": [
+            "kuchemann",
+            "multhopp",
+            "method",
+            "calculating",
+            "lift",
+            "distribution",
+            "swept",
+            "wing",
+            "subsonic",
+            "flow",
+            "compare",
+            "experiment"
+        ]
     },
     "82": {
-        "question": " what is the present state of the theory of quasi-conical flows . "
+        "question": " what is the present state of the theory of quasi-conical flows . ",
+        "tokens": [
+            "present",
+            "state",
+            "theory",
+            "quasiconical",
+            "flow"
+        ]
     },
     "83": {
-        "question": " references on the methods available for accurately estimating aerodynamic heat transfer to conical bodies for both laminar and turbulent flow . "
+        "question": " references on the methods available for accurately estimating aerodynamic heat transfer to conical bodies for both laminar and turbulent flow . ",
+        "tokens": [
+            "reference",
+            "method",
+            "available",
+            "accurately",
+            "estimating",
+            "aerodynamic",
+            "heat",
+            "transfer",
+            "conical",
+            "body",
+            "laminar",
+            "turbulent",
+            "flow"
+        ]
     },
     "84": {
-        "question": " what parameters can seriously influence natural transition from laminar to turbulent flow on a model in a wind tunnel . "
+        "question": " what parameters can seriously influence natural transition from laminar to turbulent flow on a model in a wind tunnel . ",
+        "tokens": [
+            "parameter",
+            "seriously",
+            "influence",
+            "natural",
+            "transition",
+            "laminar",
+            "turbulent",
+            "flow",
+            "model",
+            "wind",
+            "tunnel"
+        ]
     },
     "85": {
-        "question": " can a satisfactory experimental technique be developed for measuring oscillatory derivatives on slender sting-mounted models in supersonic wind tunnels . "
+        "question": " can a satisfactory experimental technique be developed for measuring oscillatory derivatives on slender sting-mounted models in supersonic wind tunnels . ",
+        "tokens": [
+            "satisfactory",
+            "experimental",
+            "technique",
+            "developed",
+            "measuring",
+            "oscillatory",
+            "derivative",
+            "slender",
+            "stingmounted",
+            "model",
+            "supersonic",
+            "wind",
+            "tunnel"
+        ]
     },
     "86": {
-        "question": " what effect has the boundary layer in modifying the basic inviscid flow behind the shock,  neglecting effects of leading edge and corner . "
+        "question": " what effect has the boundary layer in modifying the basic inviscid flow behind the shock,  neglecting effects of leading edge and corner . ",
+        "tokens": [
+            "effect",
+            "boundary",
+            "layer",
+            "modifying",
+            "basic",
+            "inviscid",
+            "flow",
+            "behind",
+            "shock",
+            "neglecting",
+            "effect",
+            "leading",
+            "edge",
+            "corner"
+        ]
     },
     "87": {
-        "question": " how does a satellite orbit contract under the action of air drag in an atmosphere in which the scale height varies with altitude . "
+        "question": " how does a satellite orbit contract under the action of air drag in an atmosphere in which the scale height varies with altitude . ",
+        "tokens": [
+            "satellite",
+            "orbit",
+            "contract",
+            "action",
+            "air",
+            "drag",
+            "atmosphere",
+            "scale",
+            "height",
+            "varies",
+            "altitude"
+        ]
     },
     "88": {
-        "question": " how is the flow at transonic speeds about a delta wing different from that on a closely-related tapered sweptback wing . "
+        "question": " how is the flow at transonic speeds about a delta wing different from that on a closely-related tapered sweptback wing . ",
+        "tokens": [
+            "flow",
+            "transonic",
+            "speed",
+            "delta",
+            "wing",
+            "different",
+            "closelyrelated",
+            "tapered",
+            "sweptback",
+            "wing"
+        ]
     },
     "89": {
-        "question": " recent data on shock-induced boundary-layer separation . "
+        "question": " recent data on shock-induced boundary-layer separation . ",
+        "tokens": [
+            "recent",
+            "data",
+            "shockinduced",
+            "boundarylayer",
+            "separation"
+        ]
     },
     "90": {
-        "question": " what interference effects are likely at transonic speeds . "
+        "question": " what interference effects are likely at transonic speeds . ",
+        "tokens": [
+            "interference",
+            "effect",
+            "likely",
+            "transonic",
+            "speed"
+        ]
     },
     "91": {
-        "question": " given complete freedom in the design of an airplane,  what procedure would be used in order to minimize sonic boom intensity,  and is there a limit to the degree of minimizing that can be accomplished . "
+        "question": " given complete freedom in the design of an airplane,  what procedure would be used in order to minimize sonic boom intensity,  and is there a limit to the degree of minimizing that can be accomplished . ",
+        "tokens": [
+            "given",
+            "complete",
+            "freedom",
+            "design",
+            "airplane",
+            "procedure",
+            "would",
+            "used",
+            "order",
+            "minimize",
+            "sonic",
+            "boom",
+            "intensity",
+            "limit",
+            "degree",
+            "minimizing",
+            "accomplished"
+        ]
     },
     "92": {
-        "question": " can methane-air combustion product be used as a hypersonic test medium and predict, within experimental accuracies, the results obtained in air . "
+        "question": " can methane-air combustion product be used as a hypersonic test medium and predict, within experimental accuracies, the results obtained in air . ",
+        "tokens": [
+            "methaneair",
+            "combustion",
+            "product",
+            "used",
+            "hypersonic",
+            "test",
+            "medium",
+            "predict",
+            "within",
+            "experimental",
+            "accuracy",
+            "result",
+            "obtained",
+            "air"
+        ]
     },
     "93": {
-        "question": " what is the theoretical heat transfer rate at the stagnation point of a blunt body . "
+        "question": " what is the theoretical heat transfer rate at the stagnation point of a blunt body . ",
+        "tokens": [
+            "theoretical",
+            "heat",
+            "transfer",
+            "rate",
+            "stagnation",
+            "point",
+            "blunt",
+            "body"
+        ]
     },
     "94": {
-        "question": " what is the theoretical heat transfer distribution around a hemisphere . "
+        "question": " what is the theoretical heat transfer distribution around a hemisphere . ",
+        "tokens": [
+            "theoretical",
+            "heat",
+            "transfer",
+            "distribution",
+            "around",
+            "hemisphere"
+        ]
     },
     "95": {
-        "question": " has anyone investigated the unsteady lift distributions on finite wings in subsonic flow . "
+        "question": " has anyone investigated the unsteady lift distributions on finite wings in subsonic flow . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "unsteady",
+            "lift",
+            "distribution",
+            "finite",
+            "wing",
+            "subsonic",
+            "flow"
+        ]
     },
     "96": {
-        "question": " what information is available for dynamic response of airplanes to gusts  or blasts in the subsonic regime . "
+        "question": " what information is available for dynamic response of airplanes to gusts  or blasts in the subsonic regime . ",
+        "tokens": [
+            "information",
+            "available",
+            "dynamic",
+            "response",
+            "airplane",
+            "gust",
+            "blast",
+            "subsonic",
+            "regime"
+        ]
     },
     "97": {
-        "question": " will forward or apex located controls be effective at low subsonic speeds and how do they compare with conventional trailing-edge flaps . "
+        "question": " will forward or apex located controls be effective at low subsonic speeds and how do they compare with conventional trailing-edge flaps . ",
+        "tokens": [
+            "forward",
+            "apex",
+            "located",
+            "control",
+            "effective",
+            "low",
+            "subsonic",
+            "speed",
+            "compare",
+            "conventional",
+            "trailingedge",
+            "flap"
+        ]
     },
     "98": {
-        "question": " given that an uncontrolled vehicle will tumble as it enters an atmosphere, is it possible to predict when and how it will stop tumbling and its subsequent motion . "
+        "question": " given that an uncontrolled vehicle will tumble as it enters an atmosphere, is it possible to predict when and how it will stop tumbling and its subsequent motion . ",
+        "tokens": [
+            "given",
+            "uncontrolled",
+            "vehicle",
+            "tumble",
+            "enters",
+            "atmosphere",
+            "possible",
+            "predict",
+            "stop",
+            "tumbling",
+            "subsequent",
+            "motion"
+        ]
     },
     "99": {
-        "question": " what are the effects of initial imperfections on the elastic buckling of cylindrical shells under axial compression . "
+        "question": " what are the effects of initial imperfections on the elastic buckling of cylindrical shells under axial compression . ",
+        "tokens": [
+            "effect",
+            "initial",
+            "imperfection",
+            "elastic",
+            "buckling",
+            "cylindrical",
+            "shell",
+            "axial",
+            "compression"
+        ]
     },
     "100": {
-        "question": " why does the incremental theory and the deformation theory of plastic stress-strain relationship differ greatly when applied to stability problems . "
+        "question": " why does the incremental theory and the deformation theory of plastic stress-strain relationship differ greatly when applied to stability problems . ",
+        "tokens": [
+            "incremental",
+            "theory",
+            "deformation",
+            "theory",
+            "plastic",
+            "stressstrain",
+            "relationship",
+            "differ",
+            "greatly",
+            "applied",
+            "stability",
+            "problem"
+        ]
     },
     "101": {
-        "question": " basic dynamic characteristics of structures continuous over many spans . "
+        "question": " basic dynamic characteristics of structures continuous over many spans . ",
+        "tokens": [
+            "basic",
+            "dynamic",
+            "characteristic",
+            "structure",
+            "continuous",
+            "many",
+            "span"
+        ]
     },
     "102": {
-        "question": " is the information on the buckling of sandwich sphere available . "
+        "question": " is the information on the buckling of sandwich sphere available . ",
+        "tokens": [
+            "information",
+            "buckling",
+            "sandwich",
+            "sphere",
+            "available"
+        ]
     },
     "103": {
-        "question": " can the load deformation characteristics of a beam be obtained with the material being inelastic and a non uniform temperature being present . "
+        "question": " can the load deformation characteristics of a beam be obtained with the material being inelastic and a non uniform temperature being present . ",
+        "tokens": [
+            "load",
+            "deformation",
+            "characteristic",
+            "beam",
+            "obtained",
+            "material",
+            "inelastic",
+            "non",
+            "uniform",
+            "temperature",
+            "present"
+        ]
     },
     "104": {
-        "question": " what is the effect of an internal liquid column on the breathing vibrations of a cylindrical shell . "
+        "question": " what is the effect of an internal liquid column on the breathing vibrations of a cylindrical shell . ",
+        "tokens": [
+            "effect",
+            "internal",
+            "liquid",
+            "column",
+            "breathing",
+            "vibration",
+            "cylindrical",
+            "shell"
+        ]
     },
     "105": {
-        "question": " experimental techniques in shell vibration . "
+        "question": " experimental techniques in shell vibration . ",
+        "tokens": [
+            "experimental",
+            "technique",
+            "shell",
+            "vibration"
+        ]
     },
     "106": {
-        "question": " in summarizing theoretical and experimental work on the behaviour of a typical aircraft structure in a noise environment is it possible to develop a design procedure . "
+        "question": " in summarizing theoretical and experimental work on the behaviour of a typical aircraft structure in a noise environment is it possible to develop a design procedure . ",
+        "tokens": [
+            "summarizing",
+            "theoretical",
+            "experimental",
+            "work",
+            "behaviour",
+            "typical",
+            "aircraft",
+            "structure",
+            "noise",
+            "environment",
+            "possible",
+            "develop",
+            "design",
+            "procedure"
+        ]
     },
     "107": {
-        "question": " what data is there on the fatigue of structures under acoustic loading . "
+        "question": " what data is there on the fatigue of structures under acoustic loading . ",
+        "tokens": [
+            "data",
+            "fatigue",
+            "structure",
+            "acoustic",
+            "loading"
+        ]
     },
     "108": {
-        "question": " panels subjected to aerodynamic heating . "
+        "question": " panels subjected to aerodynamic heating . ",
+        "tokens": [
+            "panel",
+            "subjected",
+            "aerodynamic",
+            "heating"
+        ]
     },
     "109": {
-        "question": " can increasing the edge loading of a plate beyond the critical value for buckling change the buckling mode . "
+        "question": " can increasing the edge loading of a plate beyond the critical value for buckling change the buckling mode . ",
+        "tokens": [
+            "increasing",
+            "edge",
+            "loading",
+            "plate",
+            "beyond",
+            "critical",
+            "value",
+            "buckling",
+            "change",
+            "buckling",
+            "mode"
+        ]
     },
     "110": {
-        "question": " have the effects of an elastic edge restraint been considered in previous papers on panel flutter . "
+        "question": " have the effects of an elastic edge restraint been considered in previous papers on panel flutter . ",
+        "tokens": [
+            "effect",
+            "elastic",
+            "edge",
+            "restraint",
+            "considered",
+            "previous",
+            "paper",
+            "panel",
+            "flutter"
+        ]
     },
     "111": {
-        "question": " has the solution of the clamped plate problem,  in the classical theory of bending,  been reduced to two successive membrane boundary value problems . "
+        "question": " has the solution of the clamped plate problem,  in the classical theory of bending,  been reduced to two successive membrane boundary value problems . ",
+        "tokens": [
+            "solution",
+            "clamped",
+            "plate",
+            "problem",
+            "classical",
+            "theory",
+            "bending",
+            "reduced",
+            "two",
+            "successive",
+            "membrane",
+            "boundary",
+            "value",
+            "problem"
+        ]
     },
     "112": {
-        "question": " what data exists on oscillatory aerodynamic forces on control surfaces at transonic mach numbers . "
+        "question": " what data exists on oscillatory aerodynamic forces on control surfaces at transonic mach numbers . ",
+        "tokens": [
+            "data",
+            "exists",
+            "oscillatory",
+            "aerodynamic",
+            "force",
+            "control",
+            "surface",
+            "transonic",
+            "mach",
+            "number"
+        ]
     },
     "113": {
-        "question": " it is not likely that the airforces on a wing of general planform oscillating in transonic flow can be determined by purely analytical methods . is it possible to determine the airforces on a single particular planform, such as the rectangular one by such method . "
+        "question": " it is not likely that the airforces on a wing of general planform oscillating in transonic flow can be determined by purely analytical methods . is it possible to determine the airforces on a single particular planform, such as the rectangular one by such method . ",
+        "tokens": [
+            "likely",
+            "airforce",
+            "wing",
+            "general",
+            "planform",
+            "oscillating",
+            "transonic",
+            "flow",
+            "determined",
+            "purely",
+            "analytical",
+            "method",
+            "possible",
+            "determine",
+            "airforce",
+            "single",
+            "particular",
+            "planform",
+            "rectangular",
+            "one",
+            "method"
+        ]
     },
     "114": {
-        "question": " is the problem of similarity for representative investigations of aeroelastic effects in heated flow as intractable as previous investigations imply . "
+        "question": " is the problem of similarity for representative investigations of aeroelastic effects in heated flow as intractable as previous investigations imply . ",
+        "tokens": [
+            "problem",
+            "similarity",
+            "representative",
+            "investigation",
+            "aeroelastic",
+            "effect",
+            "heated",
+            "flow",
+            "intractable",
+            "previous",
+            "investigation",
+            "imply"
+        ]
     },
     "115": {
-        "question": " what is the magnitude and distribution of lift over the cone and the cylindrical portion of a cone-cylinder configuration . "
+        "question": " what is the magnitude and distribution of lift over the cone and the cylindrical portion of a cone-cylinder configuration . ",
+        "tokens": [
+            "magnitude",
+            "distribution",
+            "lift",
+            "cone",
+            "cylindrical",
+            "portion",
+            "conecylinder",
+            "configuration"
+        ]
     },
     "116": {
-        "question": " is there any information on how the addition of a /boat-tail/ affects the normal force on the body of various angles of incidence . "
+        "question": " is there any information on how the addition of a /boat-tail/ affects the normal force on the body of various angles of incidence . ",
+        "tokens": [
+            "information",
+            "addition",
+            "boattail",
+            "affect",
+            "normal",
+            "force",
+            "body",
+            "various",
+            "angle",
+            "incidence"
+        ]
     },
     "117": {
-        "question": " what are the aerodynamic interference effects on the fin lift and body lift of a fin-body combination . "
+        "question": " what are the aerodynamic interference effects on the fin lift and body lift of a fin-body combination . ",
+        "tokens": [
+            "aerodynamic",
+            "interference",
+            "effect",
+            "fin",
+            "lift",
+            "body",
+            "lift",
+            "finbody",
+            "combination"
+        ]
     },
     "118": {
-        "question": " what is the effect of initial axisymmetric deviations from circularity on the non linear (large-deflection) load-deflection response of cylinders under hydrostatic pressure . "
+        "question": " what is the effect of initial axisymmetric deviations from circularity on the non linear (large-deflection) load-deflection response of cylinders under hydrostatic pressure . ",
+        "tokens": [
+            "effect",
+            "initial",
+            "axisymmetric",
+            "deviation",
+            "circularity",
+            "non",
+            "linear",
+            "largedeflection",
+            "loaddeflection",
+            "response",
+            "cylinder",
+            "hydrostatic",
+            "pressure"
+        ]
     },
     "119": {
-        "question": " are previous analyses of circumferential thermal buckling of circular cylindrical shells unnecessarily involved or even inaccurate due to the assumed forms of buckling mode . "
+        "question": " are previous analyses of circumferential thermal buckling of circular cylindrical shells unnecessarily involved or even inaccurate due to the assumed forms of buckling mode . ",
+        "tokens": [
+            "previous",
+            "analysis",
+            "circumferential",
+            "thermal",
+            "buckling",
+            "circular",
+            "cylindrical",
+            "shell",
+            "unnecessarily",
+            "involved",
+            "even",
+            "inaccurate",
+            "due",
+            "assumed",
+            "form",
+            "buckling",
+            "mode"
+        ]
     },
     "120": {
-        "question": " what papers are there dealing with circumferential buckling either thermal buckling or due to mechanical loading . "
+        "question": " what papers are there dealing with circumferential buckling either thermal buckling or due to mechanical loading . ",
+        "tokens": [
+            "paper",
+            "dealing",
+            "circumferential",
+            "buckling",
+            "either",
+            "thermal",
+            "buckling",
+            "due",
+            "mechanical",
+            "loading"
+        ]
     },
     "121": {
-        "question": " what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment . "
+        "question": " what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment . ",
+        "tokens": [
+            "analytical",
+            "investigation",
+            "made",
+            "stability",
+            "conical",
+            "shell",
+            "result",
+            "compare",
+            "experiment"
+        ]
     },
     "122": {
-        "question": " has any work been done on determining the nature of compressible viscous flow in a straight channel . "
+        "question": " has any work been done on determining the nature of compressible viscous flow in a straight channel . ",
+        "tokens": [
+            "work",
+            "done",
+            "determining",
+            "nature",
+            "compressible",
+            "viscous",
+            "flow",
+            "straight",
+            "channel"
+        ]
     },
     "123": {
-        "question": " in what areas, other than low density wind tunnel flows, is viscous compressible flow in slender channels a problem . what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment . "
+        "question": " in what areas, other than low density wind tunnel flows, is viscous compressible flow in slender channels a problem . what analytical investigations have been made of the stability of conical shells . how do the results compare with experiment . ",
+        "tokens": [
+            "area",
+            "low",
+            "density",
+            "wind",
+            "tunnel",
+            "flow",
+            "viscous",
+            "compressible",
+            "flow",
+            "slender",
+            "channel",
+            "problem",
+            "analytical",
+            "investigation",
+            "made",
+            "stability",
+            "conical",
+            "shell",
+            "result",
+            "compare",
+            "experiment"
+        ]
     },
     "124": {
-        "question": " jet interference with supersonic flow  -dash experimental papers . "
+        "question": " jet interference with supersonic flow  -dash experimental papers . ",
+        "tokens": [
+            "jet",
+            "interference",
+            "supersonic",
+            "flow",
+            "dash",
+            "experimental",
+            "paper"
+        ]
     },
     "125": {
-        "question": " thrust vector control by fluid injection -dash papers . "
+        "question": " thrust vector control by fluid injection -dash papers . ",
+        "tokens": [
+            "thrust",
+            "vector",
+            "control",
+            "fluid",
+            "injection",
+            "dash",
+            "paper"
+        ]
     },
     "126": {
-        "question": " is it possible to obtain a reasonably simple analytical solution to the heat equation for an exponential (in time) heat input . "
+        "question": " is it possible to obtain a reasonably simple analytical solution to the heat equation for an exponential (in time) heat input . ",
+        "tokens": [
+            "possible",
+            "obtain",
+            "reasonably",
+            "simple",
+            "analytical",
+            "solution",
+            "heat",
+            "equation",
+            "exponential",
+            "time",
+            "heat",
+            "input"
+        ]
     },
     "127": {
-        "question": " has anyone programmed a pump design method for a high-speed digital computer . "
+        "question": " has anyone programmed a pump design method for a high-speed digital computer . ",
+        "tokens": [
+            "anyone",
+            "programmed",
+            "pump",
+            "design",
+            "method",
+            "highspeed",
+            "digital",
+            "computer"
+        ]
     },
     "128": {
-        "question": " has anyone derived simplified pump design equation from the fundamental three-dimensional equations for incompressible nonviscous flow . "
+        "question": " has anyone derived simplified pump design equation from the fundamental three-dimensional equations for incompressible nonviscous flow . ",
+        "tokens": [
+            "anyone",
+            "derived",
+            "simplified",
+            "pump",
+            "design",
+            "equation",
+            "fundamental",
+            "threedimensional",
+            "equation",
+            "incompressible",
+            "nonviscous",
+            "flow"
+        ]
     },
     "129": {
-        "question": " what are the flutter characteristics of the exposed skin panels of the x-15 vertical stabilizer when subjected to aerodynamic heating . "
+        "question": " what are the flutter characteristics of the exposed skin panels of the x-15 vertical stabilizer when subjected to aerodynamic heating . ",
+        "tokens": [
+            "flutter",
+            "characteristic",
+            "exposed",
+            "skin",
+            "panel",
+            "vertical",
+            "stabilizer",
+            "subjected",
+            "aerodynamic",
+            "heating"
+        ]
     },
     "130": {
-        "question": " what agreement is found between theoretically predicted instability times and experimentally measured collapse times for compressed columns in creep . "
+        "question": " what agreement is found between theoretically predicted instability times and experimentally measured collapse times for compressed columns in creep . ",
+        "tokens": [
+            "agreement",
+            "found",
+            "theoretically",
+            "predicted",
+            "instability",
+            "time",
+            "experimentally",
+            "measured",
+            "collapse",
+            "time",
+            "compressed",
+            "column",
+            "creep"
+        ]
     },
     "131": {
-        "question": " theoretical studies of creep buckling . "
+        "question": " theoretical studies of creep buckling . ",
+        "tokens": [
+            "theoretical",
+            "study",
+            "creep",
+            "buckling"
+        ]
     },
     "132": {
-        "question": " experimental studies of creep buckling . "
+        "question": " experimental studies of creep buckling . ",
+        "tokens": [
+            "experimental",
+            "study",
+            "creep",
+            "buckling"
+        ]
     },
     "133": {
-        "question": " is it possible to correlate the results on the creep buckling of widely different structures within the framework of a single theory . "
+        "question": " is it possible to correlate the results on the creep buckling of widely different structures within the framework of a single theory . ",
+        "tokens": [
+            "possible",
+            "correlate",
+            "result",
+            "creep",
+            "buckling",
+            "widely",
+            "different",
+            "structure",
+            "within",
+            "framework",
+            "single",
+            "theory"
+        ]
     },
     "134": {
-        "question": " what are the experimental results for the creep buckling of columns . "
+        "question": " what are the experimental results for the creep buckling of columns . ",
+        "tokens": [
+            "experimental",
+            "result",
+            "creep",
+            "buckling",
+            "column"
+        ]
     },
     "135": {
-        "question": " what are the results for the creep buckling of round tubes under external pressure . "
+        "question": " what are the results for the creep buckling of round tubes under external pressure . ",
+        "tokens": [
+            "result",
+            "creep",
+            "buckling",
+            "round",
+            "tube",
+            "external",
+            "pressure"
+        ]
     },
     "136": {
-        "question": " have any analytical studies been conducted on the time-to-failure mechanism associated with creep collapse for a long circular cylindrical shell which exhibits both primary and secondary creep as well as elastic deformations under various distributed force systems . "
+        "question": " have any analytical studies been conducted on the time-to-failure mechanism associated with creep collapse for a long circular cylindrical shell which exhibits both primary and secondary creep as well as elastic deformations under various distributed force systems . ",
+        "tokens": [
+            "analytical",
+            "study",
+            "conducted",
+            "timetofailure",
+            "mechanism",
+            "associated",
+            "creep",
+            "collapse",
+            "long",
+            "circular",
+            "cylindrical",
+            "shell",
+            "exhibit",
+            "primary",
+            "secondary",
+            "creep",
+            "well",
+            "elastic",
+            "deformation",
+            "various",
+            "distributed",
+            "force",
+            "system"
+        ]
     },
     "137": {
-        "question": " has the effect of initial stresses,  on the frequencies of vibration of circular cylindrical shells,  been investigated . "
+        "question": " has the effect of initial stresses,  on the frequencies of vibration of circular cylindrical shells,  been investigated . ",
+        "tokens": [
+            "effect",
+            "initial",
+            "stress",
+            "frequency",
+            "vibration",
+            "circular",
+            "cylindrical",
+            "shell",
+            "investigated"
+        ]
     },
     "138": {
-        "question": " has the effect of the change of initial pressure due to deformation,  on the frequencies of vibration of circular cylindrical shells been investigated . "
+        "question": " has the effect of the change of initial pressure due to deformation,  on the frequencies of vibration of circular cylindrical shells been investigated . ",
+        "tokens": [
+            "effect",
+            "change",
+            "initial",
+            "pressure",
+            "due",
+            "deformation",
+            "frequency",
+            "vibration",
+            "circular",
+            "cylindrical",
+            "shell",
+            "investigated"
+        ]
     },
     "139": {
-        "question": " what are the discontinuity stresses at junctions in pressurized structures . "
+        "question": " what are the discontinuity stresses at junctions in pressurized structures . ",
+        "tokens": [
+            "discontinuity",
+            "stress",
+            "junction",
+            "pressurized",
+            "structure"
+        ]
     },
     "140": {
-        "question": " what analytical solutions are available for stresses in edge-loaded shells of revolution . "
+        "question": " what analytical solutions are available for stresses in edge-loaded shells of revolution . ",
+        "tokens": [
+            "analytical",
+            "solution",
+            "available",
+            "stress",
+            "edgeloaded",
+            "shell",
+            "revolution"
+        ]
     },
     "141": {
-        "question": " what dome contours minimize discontinuity stresses when used as closures on cylindrical pressure vessels . "
+        "question": " what dome contours minimize discontinuity stresses when used as closures on cylindrical pressure vessels . ",
+        "tokens": [
+            "dome",
+            "contour",
+            "minimize",
+            "discontinuity",
+            "stress",
+            "used",
+            "closure",
+            "cylindrical",
+            "pressure",
+            "vessel"
+        ]
     },
     "142": {
-        "question": " what general solutions for the stresses in pressurized shells of revolution are available . "
+        "question": " what general solutions for the stresses in pressurized shells of revolution are available . ",
+        "tokens": [
+            "general",
+            "solution",
+            "stress",
+            "pressurized",
+            "shell",
+            "revolution",
+            "available"
+        ]
     },
     "143": {
-        "question": " can studies of pure membrane cylinders having no wall bending stiffness but maintaining their shape by virtue of internal pressure provide any insight into the behaviour of pressurized cylinders with finite wall stiffness . "
+        "question": " can studies of pure membrane cylinders having no wall bending stiffness but maintaining their shape by virtue of internal pressure provide any insight into the behaviour of pressurized cylinders with finite wall stiffness . ",
+        "tokens": [
+            "study",
+            "pure",
+            "membrane",
+            "cylinder",
+            "wall",
+            "bending",
+            "stiffness",
+            "maintaining",
+            "shape",
+            "virtue",
+            "internal",
+            "pressure",
+            "provide",
+            "insight",
+            "behaviour",
+            "pressurized",
+            "cylinder",
+            "finite",
+            "wall",
+            "stiffness"
+        ]
     },
     "144": {
-        "question": " what are the best experimental data and classical small deflection theory analyses available for pressurized cylinders in bending . "
+        "question": " what are the best experimental data and classical small deflection theory analyses available for pressurized cylinders in bending . ",
+        "tokens": [
+            "best",
+            "experimental",
+            "data",
+            "classical",
+            "small",
+            "deflection",
+            "theory",
+            "analysis",
+            "available",
+            "pressurized",
+            "cylinder",
+            "bending"
+        ]
     },
     "145": {
-        "question": " does a membrane theory exist by which the behaviour of pressurized membrane cylinders in bending can be predicted . "
+        "question": " does a membrane theory exist by which the behaviour of pressurized membrane cylinders in bending can be predicted . ",
+        "tokens": [
+            "membrane",
+            "theory",
+            "exist",
+            "behaviour",
+            "pressurized",
+            "membrane",
+            "cylinder",
+            "bending",
+            "predicted"
+        ]
     },
     "146": {
-        "question": " what are the equations which define the stability of simply supported corrugated core sandwich cylinders . "
+        "question": " what are the equations which define the stability of simply supported corrugated core sandwich cylinders . ",
+        "tokens": [
+            "equation",
+            "define",
+            "stability",
+            "simply",
+            "supported",
+            "corrugated",
+            "core",
+            "sandwich",
+            "cylinder"
+        ]
     },
     "147": {
-        "question": " papers on small deflection theory for buckling of sandwich cylinders . "
+        "question": " papers on small deflection theory for buckling of sandwich cylinders . ",
+        "tokens": [
+            "paper",
+            "small",
+            "deflection",
+            "theory",
+            "buckling",
+            "sandwich",
+            "cylinder"
+        ]
     },
     "148": {
-        "question": " has anyone developed an analysis which accurately establishes the large deflection behaviour of conical shells . "
+        "question": " has anyone developed an analysis which accurately establishes the large deflection behaviour of conical shells . ",
+        "tokens": [
+            "anyone",
+            "developed",
+            "analysis",
+            "accurately",
+            "establishes",
+            "large",
+            "deflection",
+            "behaviour",
+            "conical",
+            "shell"
+        ]
     },
     "149": {
-        "question": " what is the magnitude of second-order wing-body interference at high supersonic mach number . "
+        "question": " what is the magnitude of second-order wing-body interference at high supersonic mach number . ",
+        "tokens": [
+            "magnitude",
+            "secondorder",
+            "wingbody",
+            "interference",
+            "high",
+            "supersonic",
+            "mach",
+            "number"
+        ]
     },
     "150": {
-        "question": " what is the best theoretical method for calculating pressure on the surface of a wing alone . "
+        "question": " what is the best theoretical method for calculating pressure on the surface of a wing alone . ",
+        "tokens": [
+            "best",
+            "theoretical",
+            "method",
+            "calculating",
+            "pressure",
+            "surface",
+            "wing",
+            "alone"
+        ]
     },
     "151": {
-        "question": " how can the effect of the boundary-layer on wing pressure be calculated, and what is its magnitude . "
+        "question": " how can the effect of the boundary-layer on wing pressure be calculated, and what is its magnitude . ",
+        "tokens": [
+            "effect",
+            "boundarylayer",
+            "wing",
+            "pressure",
+            "calculated",
+            "magnitude"
+        ]
     },
     "152": {
-        "question": " how should the navier-stokes difference equations be solved . "
+        "question": " how should the navier-stokes difference equations be solved . ",
+        "tokens": [
+            "navierstokes",
+            "difference",
+            "equation",
+            "solved"
+        ]
     },
     "153": {
-        "question": " which  iterative method for solving linear elliptic difference equations is most rapidly convergent . "
+        "question": " which  iterative method for solving linear elliptic difference equations is most rapidly convergent . ",
+        "tokens": [
+            "iterative",
+            "method",
+            "solving",
+            "linear",
+            "elliptic",
+            "difference",
+            "equation",
+            "rapidly",
+            "convergent"
+        ]
     },
     "154": {
-        "question": " technical report on measurement of ablation during flight . "
+        "question": " technical report on measurement of ablation during flight . ",
+        "tokens": [
+            "technical",
+            "report",
+            "measurement",
+            "ablation",
+            "flight"
+        ]
     },
     "155": {
-        "question": " what qualitative and quantitative material is available on ablation materials research . "
+        "question": " what qualitative and quantitative material is available on ablation materials research . ",
+        "tokens": [
+            "qualitative",
+            "quantitative",
+            "material",
+            "available",
+            "ablation",
+            "material",
+            "research"
+        ]
     },
     "156": {
-        "question": " have flow fields been calculated for blunt-nosed bodies and compared with experiment for a wide range of free stream conditions and body shapes . "
+        "question": " have flow fields been calculated for blunt-nosed bodies and compared with experiment for a wide range of free stream conditions and body shapes . ",
+        "tokens": [
+            "flow",
+            "field",
+            "calculated",
+            "bluntnosed",
+            "body",
+            "compared",
+            "experiment",
+            "wide",
+            "range",
+            "free",
+            "stream",
+            "condition",
+            "body",
+            "shape"
+        ]
     },
     "157": {
-        "question": " what are the available properties of high-temperature air . "
+        "question": " what are the available properties of high-temperature air . ",
+        "tokens": [
+            "available",
+            "property",
+            "hightemperature",
+            "air"
+        ]
     },
     "158": {
-        "question": " what is the magnitude of aerodynamic damping in flexible vibration modes of a slender body of revolution characteristic of launch vehicles . "
+        "question": " what is the magnitude of aerodynamic damping in flexible vibration modes of a slender body of revolution characteristic of launch vehicles . ",
+        "tokens": [
+            "magnitude",
+            "aerodynamic",
+            "damping",
+            "flexible",
+            "vibration",
+            "mode",
+            "slender",
+            "body",
+            "revolution",
+            "characteristic",
+            "launch",
+            "vehicle"
+        ]
     },
     "159": {
-        "question": " compressive circumferential stresses in a torispherical shell reveal the possibility of buckling under internal pressure . has anyone investigated for which ranges of shell parameters these stresses are sufficiently large to cause elastic buckling . "
+        "question": " compressive circumferential stresses in a torispherical shell reveal the possibility of buckling under internal pressure . has anyone investigated for which ranges of shell parameters these stresses are sufficiently large to cause elastic buckling . ",
+        "tokens": [
+            "compressive",
+            "circumferential",
+            "stress",
+            "torispherical",
+            "shell",
+            "reveal",
+            "possibility",
+            "buckling",
+            "internal",
+            "pressure",
+            "anyone",
+            "investigated",
+            "range",
+            "shell",
+            "parameter",
+            "stress",
+            "sufficiently",
+            "large",
+            "cause",
+            "elastic",
+            "buckling"
+        ]
     },
     "160": {
-        "question": " is there an integral method to give a single and sufficiently accurate method of calculating the laminar separate point for various incompressible and compressible boundary layers with zero heat transfer . "
+        "question": " is there an integral method to give a single and sufficiently accurate method of calculating the laminar separate point for various incompressible and compressible boundary layers with zero heat transfer . ",
+        "tokens": [
+            "integral",
+            "method",
+            "give",
+            "single",
+            "sufficiently",
+            "accurate",
+            "method",
+            "calculating",
+            "laminar",
+            "separate",
+            "point",
+            "various",
+            "incompressible",
+            "compressible",
+            "boundary",
+            "layer",
+            "zero",
+            "heat",
+            "transfer"
+        ]
     },
     "161": {
-        "question": " what accurate or exact solutions of the laminar separation point for various incompressible and compressible boundary layers with zero heat transfer are available . "
+        "question": " what accurate or exact solutions of the laminar separation point for various incompressible and compressible boundary layers with zero heat transfer are available . ",
+        "tokens": [
+            "accurate",
+            "exact",
+            "solution",
+            "laminar",
+            "separation",
+            "point",
+            "various",
+            "incompressible",
+            "compressible",
+            "boundary",
+            "layer",
+            "zero",
+            "heat",
+            "transfer",
+            "available"
+        ]
     },
     "162": {
-        "question": " can the hypersonic similarity results be applied to the technique of predicting surface pressures of an ogive forebody at angle of attack . "
+        "question": " can the hypersonic similarity results be applied to the technique of predicting surface pressures of an ogive forebody at angle of attack . ",
+        "tokens": [
+            "hypersonic",
+            "similarity",
+            "result",
+            "applied",
+            "technique",
+            "predicting",
+            "surface",
+            "pressure",
+            "ogive",
+            "forebody",
+            "angle",
+            "attack"
+        ]
     },
     "163": {
-        "question": " what determines the onset of shock-induced boundary-layer separation . "
+        "question": " what determines the onset of shock-induced boundary-layer separation . ",
+        "tokens": [
+            "determines",
+            "onset",
+            "shockinduced",
+            "boundarylayer",
+            "separation"
+        ]
     },
     "164": {
-        "question": " are the stable profiles of a compressible boundary layer induced by a moving wave known . "
+        "question": " are the stable profiles of a compressible boundary layer induced by a moving wave known . ",
+        "tokens": [
+            "stable",
+            "profile",
+            "compressible",
+            "boundary",
+            "layer",
+            "induced",
+            "moving",
+            "wave",
+            "known"
+        ]
     },
     "165": {
-        "question": " are there experimental results on the stability of a compressible boundary layer induced by a moving wave . "
+        "question": " are there experimental results on the stability of a compressible boundary layer induced by a moving wave . ",
+        "tokens": [
+            "experimental",
+            "result",
+            "stability",
+            "compressible",
+            "boundary",
+            "layer",
+            "induced",
+            "moving",
+            "wave"
+        ]
     },
     "166": {
-        "question": " exact solution methods for calculating the ablative mass loss of a material ablating at high temperatures in a hypersonic flight environment . "
+        "question": " exact solution methods for calculating the ablative mass loss of a material ablating at high temperatures in a hypersonic flight environment . ",
+        "tokens": [
+            "exact",
+            "solution",
+            "method",
+            "calculating",
+            "ablative",
+            "mass",
+            "loss",
+            "material",
+            "ablating",
+            "high",
+            "temperature",
+            "hypersonic",
+            "flight",
+            "environment"
+        ]
     },
     "167": {
-        "question": " what approximate solutions are known to the direct problem of transonic flow in the throat of a nozzle,  i.e. finding the flow in a given nozzle . "
+        "question": " what approximate solutions are known to the direct problem of transonic flow in the throat of a nozzle,  i.e. finding the flow in a given nozzle . ",
+        "tokens": [
+            "approximate",
+            "solution",
+            "known",
+            "direct",
+            "problem",
+            "transonic",
+            "flow",
+            "throat",
+            "nozzle",
+            "ie",
+            "finding",
+            "flow",
+            "given",
+            "nozzle"
+        ]
     },
     "168": {
-        "question": " what approximate solutions are known to the indirect problem of transonic flow in the throat of a nozzle,  i.e. finding a nozzle which has a given axial velocity distribution . "
+        "question": " what approximate solutions are known to the indirect problem of transonic flow in the throat of a nozzle,  i.e. finding a nozzle which has a given axial velocity distribution . ",
+        "tokens": [
+            "approximate",
+            "solution",
+            "known",
+            "indirect",
+            "problem",
+            "transonic",
+            "flow",
+            "throat",
+            "nozzle",
+            "ie",
+            "finding",
+            "nozzle",
+            "given",
+            "axial",
+            "velocity",
+            "distribution"
+        ]
     },
     "169": {
-        "question": " why do users of orthodox pitot-static tubes often find that the calibrations appear to be,. - (a) significantly different from those formerly specified,  (b) wildly variable at low reynolds numbers . "
+        "question": " why do users of orthodox pitot-static tubes often find that the calibrations appear to be,. - (a) significantly different from those formerly specified,  (b) wildly variable at low reynolds numbers . ",
+        "tokens": [
+            "user",
+            "orthodox",
+            "pitotstatic",
+            "tube",
+            "often",
+            "find",
+            "calibration",
+            "appear",
+            "significantly",
+            "different",
+            "formerly",
+            "specified",
+            "b",
+            "wildly",
+            "variable",
+            "low",
+            "reynolds",
+            "number"
+        ]
     },
     "170": {
-        "question": " has a comparison been made between interference-free drag measurements using free-flight models and similar measurements made in a low-blockage wind tunnel . "
+        "question": " has a comparison been made between interference-free drag measurements using free-flight models and similar measurements made in a low-blockage wind tunnel . ",
+        "tokens": [
+            "comparison",
+            "made",
+            "interferencefree",
+            "drag",
+            "measurement",
+            "using",
+            "freeflight",
+            "model",
+            "similar",
+            "measurement",
+            "made",
+            "lowblockage",
+            "wind",
+            "tunnel"
+        ]
     },
     "171": {
-        "question": " solution of the blasius problem with three-point boundary conditions . "
+        "question": " solution of the blasius problem with three-point boundary conditions . ",
+        "tokens": [
+            "solution",
+            "blasius",
+            "problem",
+            "threepoint",
+            "boundary",
+            "condition"
+        ]
     },
     "172": {
-        "question": " references on lyapunov's method on the stability of linear differential equations with periodic coefficients . "
+        "question": " references on lyapunov's method on the stability of linear differential equations with periodic coefficients . ",
+        "tokens": [
+            "reference",
+            "lyapunov",
+            "method",
+            "stability",
+            "linear",
+            "differential",
+            "equation",
+            "periodic",
+            "coefficient"
+        ]
     },
     "173": {
-        "question": " obtain all papers and reports that contain shock detachment distance data . "
+        "question": " obtain all papers and reports that contain shock detachment distance data . ",
+        "tokens": [
+            "obtain",
+            "paper",
+            "report",
+            "contain",
+            "shock",
+            "detachment",
+            "distance",
+            "data"
+        ]
     },
     "174": {
-        "question": " work on flow in channels at low reynolds numbers . "
+        "question": " work on flow in channels at low reynolds numbers . ",
+        "tokens": [
+            "work",
+            "flow",
+            "channel",
+            "low",
+            "reynolds",
+            "number"
+        ]
     },
     "175": {
-        "question": " some approximate analytical heat conduction solutions using methods other than biot's principle . "
+        "question": " some approximate analytical heat conduction solutions using methods other than biot's principle . ",
+        "tokens": [
+            "approximate",
+            "analytical",
+            "heat",
+            "conduction",
+            "solution",
+            "using",
+            "method",
+            "biot",
+            "principle"
+        ]
     },
     "176": {
-        "question": " what mode of stalling can be expected for each stage of an axial compressor . "
+        "question": " what mode of stalling can be expected for each stage of an axial compressor . ",
+        "tokens": [
+            "mode",
+            "stalling",
+            "expected",
+            "stage",
+            "axial",
+            "compressor"
+        ]
     },
     "177": {
-        "question": " has a criterion been established for determining the axial compressor choking line . "
+        "question": " has a criterion been established for determining the axial compressor choking line . ",
+        "tokens": [
+            "criterion",
+            "established",
+            "determining",
+            "axial",
+            "compressor",
+            "choking",
+            "line"
+        ]
     },
     "178": {
-        "question": " has a theory of quasi-conical flows been developed, in supersonic linearised theory, for which the upwash distribution on the lifting surface, apart from being a homogeneous function in the co-ordinate, is permitted to have a quite general functional form . "
+        "question": " has a theory of quasi-conical flows been developed, in supersonic linearised theory, for which the upwash distribution on the lifting surface, apart from being a homogeneous function in the co-ordinate, is permitted to have a quite general functional form . ",
+        "tokens": [
+            "theory",
+            "quasiconical",
+            "flow",
+            "developed",
+            "supersonic",
+            "linearised",
+            "theory",
+            "upwash",
+            "distribution",
+            "lifting",
+            "surface",
+            "apart",
+            "homogeneous",
+            "function",
+            "coordinate",
+            "permitted",
+            "quite",
+            "general",
+            "functional",
+            "form"
+        ]
     },
     "179": {
-        "question": " how does scale height vary with altitude in an atmosphere . "
+        "question": " how does scale height vary with altitude in an atmosphere . ",
+        "tokens": [
+            "scale",
+            "height",
+            "vary",
+            "altitude",
+            "atmosphere"
+        ]
     },
     "180": {
-        "question": " jet interference with supersonic flows theoretical papers . "
+        "question": " jet interference with supersonic flows theoretical papers . ",
+        "tokens": [
+            "jet",
+            "interference",
+            "supersonic",
+            "flow",
+            "theoretical",
+            "paper"
+        ]
     },
     "181": {
-        "question": " effects of leading-edge bluntness on the flutter characteristics of some square-planform double-wedge airfoils at mach numbers less than 15.4. "
+        "question": " effects of leading-edge bluntness on the flutter characteristics of some square-planform double-wedge airfoils at mach numbers less than 15.4. ",
+        "tokens": [
+            "effect",
+            "leadingedge",
+            "bluntness",
+            "flutter",
+            "characteristic",
+            "squareplanform",
+            "doublewedge",
+            "airfoil",
+            "mach",
+            "number",
+            "le"
+        ]
     },
     "182": {
-        "question": " what factors have been shown to have a primary influence on sonic boom strength . "
+        "question": " what factors have been shown to have a primary influence on sonic boom strength . ",
+        "tokens": [
+            "factor",
+            "shown",
+            "primary",
+            "influence",
+            "sonic",
+            "boom",
+            "strength"
+        ]
     },
     "183": {
-        "question": " work on small-oscillation re-entry motions . "
+        "question": " work on small-oscillation re-entry motions . ",
+        "tokens": [
+            "work",
+            "smalloscillation",
+            "reentry",
+            "motion"
+        ]
     },
     "184": {
-        "question": " experimental studies on panel flutter . "
+        "question": " experimental studies on panel flutter . ",
+        "tokens": [
+            "experimental",
+            "study",
+            "panel",
+            "flutter"
+        ]
     },
     "185": {
-        "question": " how can wing-body,  flow field interference effects be approximated rationally . "
+        "question": " how can wing-body,  flow field interference effects be approximated rationally . ",
+        "tokens": [
+            "wingbody",
+            "flow",
+            "field",
+            "interference",
+            "effect",
+            "approximated",
+            "rationally"
+        ]
     },
     "186": {
-        "question": " has anyone analytically or experimentally investigated the effects of internal pressure on the buckling of circular-cylindrical shells under bending . "
+        "question": " has anyone analytically or experimentally investigated the effects of internal pressure on the buckling of circular-cylindrical shells under bending . ",
+        "tokens": [
+            "anyone",
+            "analytically",
+            "experimentally",
+            "investigated",
+            "effect",
+            "internal",
+            "pressure",
+            "buckling",
+            "circularcylindrical",
+            "shell",
+            "bending"
+        ]
     },
     "187": {
-        "question": " what theoretical and experimental work has been done on the excitation and response of typical structures in a noise environment . "
+        "question": " what theoretical and experimental work has been done on the excitation and response of typical structures in a noise environment . ",
+        "tokens": [
+            "theoretical",
+            "experimental",
+            "work",
+            "done",
+            "excitation",
+            "response",
+            "typical",
+            "structure",
+            "noise",
+            "environment"
+        ]
     },
     "188": {
-        "question": " is there a design method for calculating thermal fatigue endurances of components of various types and sizes in a variety of circumstances . "
+        "question": " is there a design method for calculating thermal fatigue endurances of components of various types and sizes in a variety of circumstances . ",
+        "tokens": [
+            "design",
+            "method",
+            "calculating",
+            "thermal",
+            "fatigue",
+            "endurance",
+            "component",
+            "various",
+            "type",
+            "size",
+            "variety",
+            "circumstance"
+        ]
     },
     "189": {
-        "question": " will an analysis of panel flutter based on arbitrarily assumed modes of deformation prove satisfactory,  and if so,  what is the minimum number of modes that need be considered . "
+        "question": " will an analysis of panel flutter based on arbitrarily assumed modes of deformation prove satisfactory,  and if so,  what is the minimum number of modes that need be considered . ",
+        "tokens": [
+            "analysis",
+            "panel",
+            "flutter",
+            "based",
+            "arbitrarily",
+            "assumed",
+            "mode",
+            "deformation",
+            "prove",
+            "satisfactory",
+            "minimum",
+            "number",
+            "mode",
+            "need",
+            "considered"
+        ]
     },
     "190": {
-        "question": " what is the criterion for true panel flutter,  as opposed to small amplitude vibration arising from acoustic disturbances . "
+        "question": " what is the criterion for true panel flutter,  as opposed to small amplitude vibration arising from acoustic disturbances . ",
+        "tokens": [
+            "criterion",
+            "true",
+            "panel",
+            "flutter",
+            "opposed",
+            "small",
+            "amplitude",
+            "vibration",
+            "arising",
+            "acoustic",
+            "disturbance"
+        ]
     },
     "191": {
-        "question": " papers dealing with uniformly loaded sectors . "
+        "question": " papers dealing with uniformly loaded sectors . ",
+        "tokens": [
+            "paper",
+            "dealing",
+            "uniformly",
+            "loaded",
+            "sector"
+        ]
     },
     "192": {
-        "question": " general methods of solving clamped plate problems . "
+        "question": " general methods of solving clamped plate problems . ",
+        "tokens": [
+            "general",
+            "method",
+            "solving",
+            "clamped",
+            "plate",
+            "problem"
+        ]
     },
     "193": {
-        "question": " how can the analytical solution of the buckling strength of a uniform circular cylinder loaded in axial compression be refined so as to lower the buckling load . "
+        "question": " how can the analytical solution of the buckling strength of a uniform circular cylinder loaded in axial compression be refined so as to lower the buckling load . ",
+        "tokens": [
+            "analytical",
+            "solution",
+            "buckling",
+            "strength",
+            "uniform",
+            "circular",
+            "cylinder",
+            "loaded",
+            "axial",
+            "compression",
+            "refined",
+            "lower",
+            "buckling",
+            "load"
+        ]
     },
     "194": {
-        "question": " in the problem of the buckling strength of uniform circular cylinders loaded in axial compression,  does the linear solution help with improving the non-linear one . "
+        "question": " in the problem of the buckling strength of uniform circular cylinders loaded in axial compression,  does the linear solution help with improving the non-linear one . ",
+        "tokens": [
+            "problem",
+            "buckling",
+            "strength",
+            "uniform",
+            "circular",
+            "cylinder",
+            "loaded",
+            "axial",
+            "compression",
+            "linear",
+            "solution",
+            "help",
+            "improving",
+            "nonlinear",
+            "one"
+        ]
     },
     "195": {
-        "question": " the problem of similarity for representative investigation of aeroelastic effects in a flow with the absence of heating effects . "
+        "question": " the problem of similarity for representative investigation of aeroelastic effects in a flow with the absence of heating effects . ",
+        "tokens": [
+            "problem",
+            "similarity",
+            "representative",
+            "investigation",
+            "aeroelastic",
+            "effect",
+            "flow",
+            "absence",
+            "heating",
+            "effect"
+        ]
     },
     "196": {
-        "question": " how is fatigue damage estimated using the normal long-hand method . "
+        "question": " how is fatigue damage estimated using the normal long-hand method . ",
+        "tokens": [
+            "fatigue",
+            "damage",
+            "estimated",
+            "using",
+            "normal",
+            "longhand",
+            "method"
+        ]
     },
     "197": {
-        "question": " is there any information available on the difference in the effects of various edge conditions on the buckling of cylindrical shells . "
+        "question": " is there any information available on the difference in the effects of various edge conditions on the buckling of cylindrical shells . ",
+        "tokens": [
+            "information",
+            "available",
+            "difference",
+            "effect",
+            "various",
+            "edge",
+            "condition",
+            "buckling",
+            "cylindrical",
+            "shell"
+        ]
     },
     "198": {
-        "question": " have non-linear large deflection analyses been conducted for shell shapes other than conical . "
+        "question": " have non-linear large deflection analyses been conducted for shell shapes other than conical . ",
+        "tokens": [
+            "nonlinear",
+            "large",
+            "deflection",
+            "analysis",
+            "conducted",
+            "shell",
+            "shape",
+            "conical"
+        ]
     },
     "199": {
-        "question": " are asymptotic methods sufficiently accurate in the determination of pre-buckling stresses in torispherical shells,  or must we resort to numerical methods . "
+        "question": " are asymptotic methods sufficiently accurate in the determination of pre-buckling stresses in torispherical shells,  or must we resort to numerical methods . ",
+        "tokens": [
+            "asymptotic",
+            "method",
+            "sufficiently",
+            "accurate",
+            "determination",
+            "prebuckling",
+            "stress",
+            "torispherical",
+            "shell",
+            "must",
+            "resort",
+            "numerical",
+            "method"
+        ]
     },
     "200": {
-        "question": " what are the nonequilibrium chemical constituents in the viscous shock layer ahead of a blunt re-entry vehicle . "
+        "question": " what are the nonequilibrium chemical constituents in the viscous shock layer ahead of a blunt re-entry vehicle . ",
+        "tokens": [
+            "nonequilibrium",
+            "chemical",
+            "constituent",
+            "viscous",
+            "shock",
+            "layer",
+            "ahead",
+            "blunt",
+            "reentry",
+            "vehicle"
+        ]
     },
     "201": {
-        "question": " how accurate are existing analytical theories in estimating pressure distributions on cones at incidence,  at hypersonic speeds . "
+        "question": " how accurate are existing analytical theories in estimating pressure distributions on cones at incidence,  at hypersonic speeds . ",
+        "tokens": [
+            "accurate",
+            "existing",
+            "analytical",
+            "theory",
+            "estimating",
+            "pressure",
+            "distribution",
+            "cone",
+            "incidence",
+            "hypersonic",
+            "speed"
+        ]
     },
     "202": {
-        "question": " are simple empirical methods of any use for estimating pressure distribution in cones . "
+        "question": " are simple empirical methods of any use for estimating pressure distribution in cones . ",
+        "tokens": [
+            "simple",
+            "empirical",
+            "method",
+            "use",
+            "estimating",
+            "pressure",
+            "distribution",
+            "cone"
+        ]
     },
     "203": {
-        "question": " do viscous effects seriously modify pressure distributions . "
+        "question": " do viscous effects seriously modify pressure distributions . ",
+        "tokens": [
+            "viscous",
+            "effect",
+            "seriously",
+            "modify",
+            "pressure",
+            "distribution"
+        ]
     },
     "204": {
-        "question": " has anyone investigated theoretically whether surface flexibility can stabilize a laminar boundary layer . "
+        "question": " has anyone investigated theoretically whether surface flexibility can stabilize a laminar boundary layer . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "theoretically",
+            "whether",
+            "surface",
+            "flexibility",
+            "stabilize",
+            "laminar",
+            "boundary",
+            "layer"
+        ]
     },
     "205": {
-        "question": " how do subsonic and transonic flutter data measured in the new langley transonic dynamics tunnel compare with similar data obtained in other facilities . "
+        "question": " how do subsonic and transonic flutter data measured in the new langley transonic dynamics tunnel compare with similar data obtained in other facilities . ",
+        "tokens": [
+            "subsonic",
+            "transonic",
+            "flutter",
+            "data",
+            "measured",
+            "new",
+            "langley",
+            "transonic",
+            "dynamic",
+            "tunnel",
+            "compare",
+            "similar",
+            "data",
+            "obtained",
+            "facility"
+        ]
     },
     "206": {
-        "question": " how do large changes in new mass ratio quantitatively affect wing-flutter boundaries . "
+        "question": " how do large changes in new mass ratio quantitatively affect wing-flutter boundaries . ",
+        "tokens": [
+            "large",
+            "change",
+            "new",
+            "mass",
+            "ratio",
+            "quantitatively",
+            "affect",
+            "wingflutter",
+            "boundary"
+        ]
     },
     "207": {
-        "question": " what is the effect of the shape of the drag polar of a lifting spacecraft on the amount of reduction in maximum deceleration obtainable by continuously varying the aerodynamic coefficients during re-entry . "
+        "question": " what is the effect of the shape of the drag polar of a lifting spacecraft on the amount of reduction in maximum deceleration obtainable by continuously varying the aerodynamic coefficients during re-entry . ",
+        "tokens": [
+            "effect",
+            "shape",
+            "drag",
+            "polar",
+            "lifting",
+            "spacecraft",
+            "amount",
+            "reduction",
+            "maximum",
+            "deceleration",
+            "obtainable",
+            "continuously",
+            "varying",
+            "aerodynamic",
+            "coefficient",
+            "reentry"
+        ]
     },
     "208": {
-        "question": " what are the physical significance and characteristics of separated laminar and turbulent boundary layer flows . "
+        "question": " what are the physical significance and characteristics of separated laminar and turbulent boundary layer flows . ",
+        "tokens": [
+            "physical",
+            "significance",
+            "characteristic",
+            "separated",
+            "laminar",
+            "turbulent",
+            "boundary",
+            "layer",
+            "flow"
+        ]
     },
     "209": {
-        "question": " has anyone analytically investigated the stabilizing influence of soft elastic cores on the buckling strength of cylindrical shells subjected to non-uniform external pressure . "
+        "question": " has anyone analytically investigated the stabilizing influence of soft elastic cores on the buckling strength of cylindrical shells subjected to non-uniform external pressure . ",
+        "tokens": [
+            "anyone",
+            "analytically",
+            "investigated",
+            "stabilizing",
+            "influence",
+            "soft",
+            "elastic",
+            "core",
+            "buckling",
+            "strength",
+            "cylindrical",
+            "shell",
+            "subjected",
+            "nonuniform",
+            "external",
+            "pressure"
+        ]
     },
     "210": {
-        "question": " what papers are available on the buckling of empty cylindrical shells under non-uniform pressure . "
+        "question": " what papers are available on the buckling of empty cylindrical shells under non-uniform pressure . ",
+        "tokens": [
+            "paper",
+            "available",
+            "buckling",
+            "empty",
+            "cylindrical",
+            "shell",
+            "nonuniform",
+            "pressure"
+        ]
     },
     "211": {
-        "question": " what effect do thermal stresses have on the compressive buckling strength of ring-stiffened cylinders . "
+        "question": " what effect do thermal stresses have on the compressive buckling strength of ring-stiffened cylinders . ",
+        "tokens": [
+            "effect",
+            "thermal",
+            "stress",
+            "compressive",
+            "buckling",
+            "strength",
+            "ringstiffened",
+            "cylinder"
+        ]
     },
     "212": {
-        "question": " what is the effect on cylinder buckling of a circumferential stress system that varies in the axial direction . "
+        "question": " what is the effect on cylinder buckling of a circumferential stress system that varies in the axial direction . ",
+        "tokens": [
+            "effect",
+            "cylinder",
+            "buckling",
+            "circumferential",
+            "stress",
+            "system",
+            "varies",
+            "axial",
+            "direction"
+        ]
     },
     "213": {
-        "question": " can non-linear shallow shell analysis be reduced to an engineering technique by use of the matrix . "
+        "question": " can non-linear shallow shell analysis be reduced to an engineering technique by use of the matrix . ",
+        "tokens": [
+            "nonlinear",
+            "shallow",
+            "shell",
+            "analysis",
+            "reduced",
+            "engineering",
+            "technique",
+            "use",
+            "matrix"
+        ]
     },
     "214": {
-        "question": " is it possible to predict the shape of a shroud which will allow simulation of the nose region flow field for a sphere in hypersonic flow . "
+        "question": " is it possible to predict the shape of a shroud which will allow simulation of the nose region flow field for a sphere in hypersonic flow . ",
+        "tokens": [
+            "possible",
+            "predict",
+            "shape",
+            "shroud",
+            "allow",
+            "simulation",
+            "nose",
+            "region",
+            "flow",
+            "field",
+            "sphere",
+            "hypersonic",
+            "flow"
+        ]
     },
     "215": {
-        "question": " what investigations have been made of the wave system created by a static pressure distribution over a liquid surface . "
+        "question": " what investigations have been made of the wave system created by a static pressure distribution over a liquid surface . ",
+        "tokens": [
+            "investigation",
+            "made",
+            "wave",
+            "system",
+            "created",
+            "static",
+            "pressure",
+            "distribution",
+            "liquid",
+            "surface"
+        ]
     },
     "216": {
-        "question": " has anyone investigated the effect of shock generated vorticity on heat transfer to a blunt body . "
+        "question": " has anyone investigated the effect of shock generated vorticity on heat transfer to a blunt body . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "effect",
+            "shock",
+            "generated",
+            "vorticity",
+            "heat",
+            "transfer",
+            "blunt",
+            "body"
+        ]
     },
     "217": {
-        "question": " what is the heat transfer to a blunt body in the absence of vorticity . "
+        "question": " what is the heat transfer to a blunt body in the absence of vorticity . ",
+        "tokens": [
+            "heat",
+            "transfer",
+            "blunt",
+            "body",
+            "absence",
+            "vorticity"
+        ]
     },
     "218": {
-        "question": " what are the general effects on flow fields when the reynolds number is small . "
+        "question": " what are the general effects on flow fields when the reynolds number is small . ",
+        "tokens": [
+            "general",
+            "effect",
+            "flow",
+            "field",
+            "reynolds",
+            "number",
+            "small"
+        ]
     },
     "219": {
-        "question": " find a calculation procedure applicable to all incompressible laminar boundary layer flow problems having good accuracy and reasonable computation time . "
+        "question": " find a calculation procedure applicable to all incompressible laminar boundary layer flow problems having good accuracy and reasonable computation time . ",
+        "tokens": [
+            "find",
+            "calculation",
+            "procedure",
+            "applicable",
+            "incompressible",
+            "laminar",
+            "boundary",
+            "layer",
+            "flow",
+            "problem",
+            "good",
+            "accuracy",
+            "reasonable",
+            "computation",
+            "time"
+        ]
     },
     "220": {
-        "question": " papers applicable to this problem (calculation procedures for laminar incompressible flow with arbitrary pressure gradient) . "
+        "question": " papers applicable to this problem (calculation procedures for laminar incompressible flow with arbitrary pressure gradient) . ",
+        "tokens": [
+            "paper",
+            "applicable",
+            "problem",
+            "calculation",
+            "procedure",
+            "laminar",
+            "incompressible",
+            "flow",
+            "arbitrary",
+            "pressure",
+            "gradient"
+        ]
     },
     "221": {
-        "question": " has anyone investigated the shear buckling of stiffened plates . "
+        "question": " has anyone investigated the shear buckling of stiffened plates . ",
+        "tokens": [
+            "anyone",
+            "investigated",
+            "shear",
+            "buckling",
+            "stiffened",
+            "plate"
+        ]
     },
     "222": {
-        "question": " papers on shear buckling of unstiffened rectangular plates under shear . "
+        "question": " papers on shear buckling of unstiffened rectangular plates under shear . ",
+        "tokens": [
+            "paper",
+            "shear",
+            "buckling",
+            "unstiffened",
+            "rectangular",
+            "plate",
+            "shear"
+        ]
     },
     "223": {
-        "question": " in practice, how close to reality are the assumptions that the flow in a hypersonic shock tube using nitrogen is non-viscous and in thermodynamic equilibrium . "
+        "question": " in practice, how close to reality are the assumptions that the flow in a hypersonic shock tube using nitrogen is non-viscous and in thermodynamic equilibrium . ",
+        "tokens": [
+            "practice",
+            "close",
+            "reality",
+            "assumption",
+            "flow",
+            "hypersonic",
+            "shock",
+            "tube",
+            "using",
+            "nitrogen",
+            "nonviscous",
+            "thermodynamic",
+            "equilibrium"
+        ]
     },
     "224": {
-        "question": " what design factors can be used to control lift-drag ratios at mach numbers above 5 . "
+        "question": " what design factors can be used to control lift-drag ratios at mach numbers above 5 . ",
+        "tokens": [
+            "design",
+            "factor",
+            "used",
+            "control",
+            "liftdrag",
+            "ratio",
+            "mach",
+            "number"
+        ]
     }
 }

@@ -1,89 +1,528 @@
 {
     "1": {
-        "question": "  the relationship of blood and cerebrospinal fluid oxygen concentrations or partial pressures.  a method of interest is polarography. "
+        "question": "  the relationship of blood and cerebrospinal fluid oxygen concentrations or partial pressures.  a method of interest is polarography. ",
+        "tokens": [
+            "relationship",
+            "blood",
+            "cerebrospinal",
+            "fluid",
+            "oxygen",
+            "concentration",
+            "partial",
+            "pressure",
+            "method",
+            "interest",
+            "polarography"
+        ]
     },
     "2": {
-        "question": "  electron microscopy of lung or bronchi. "
+        "question": "  electron microscopy of lung or bronchi. ",
+        "tokens": [
+            "electron",
+            "microscopy",
+            "lung",
+            "bronchus"
+        ]
     },
     "3": {
-        "question": "  tissue culture of lung or bronchial neoplasms. "
+        "question": "  tissue culture of lung or bronchial neoplasms. ",
+        "tokens": [
+            "tissue",
+            "culture",
+            "lung",
+            "bronchial",
+            "neoplasm"
+        ]
     },
     "4": {
-        "question": "  the crossing of fatty acids through the placental barrier.  normal fatty acid levels in placenta and fetus. "
+        "question": "  the crossing of fatty acids through the placental barrier.  normal fatty acid levels in placenta and fetus. ",
+        "tokens": [
+            "crossing",
+            "fatty",
+            "acid",
+            "placental",
+            "barrier",
+            "normal",
+            "fatty",
+            "acid",
+            "level",
+            "placenta",
+            "fetus"
+        ]
     },
     "5": {
-        "question": "  ventricular septal defect occurring in association with aortic regurgitation. "
+        "question": "  ventricular septal defect occurring in association with aortic regurgitation. ",
+        "tokens": [
+            "ventricular",
+            "septal",
+            "defect",
+            "occurring",
+            "association",
+            "aortic",
+            "regurgitation"
+        ]
     },
     "6": {
-        "question": "  radioisotopes in heart scanning.  mainly used in diagnosis of pericardial effusions.  also used to study tumors, heart enlargement, aneurysms and pericardial thickening.  technetium, rihsa, radioactive hippurate, cholegraffin are used. "
+        "question": "  radioisotopes in heart scanning.  mainly used in diagnosis of pericardial effusions.  also used to study tumors, heart enlargement, aneurysms and pericardial thickening.  technetium, rihsa, radioactive hippurate, cholegraffin are used. ",
+        "tokens": [
+            "radioisotope",
+            "heart",
+            "scanning",
+            "mainly",
+            "used",
+            "diagnosis",
+            "pericardial",
+            "effusion",
+            "also",
+            "used",
+            "study",
+            "tumor",
+            "heart",
+            "enlargement",
+            "aneurysm",
+            "pericardial",
+            "thickening",
+            "technetium",
+            "rihsa",
+            "radioactive",
+            "hippurate",
+            "cholegraffin",
+            "used"
+        ]
     },
     "7": {
-        "question": "  the effects of drugs on the bone marrow of man and animals, specifically the effect of pesticides.  also, the significance of bone marrow changes. "
+        "question": "  the effects of drugs on the bone marrow of man and animals, specifically the effect of pesticides.  also, the significance of bone marrow changes. ",
+        "tokens": [
+            "effect",
+            "drug",
+            "bone",
+            "marrow",
+            "man",
+            "animal",
+            "specifically",
+            "effect",
+            "pesticide",
+            "also",
+            "significance",
+            "bone",
+            "marrow",
+            "change"
+        ]
     },
     "8": {
-        "question": "  the use of induced hypothermia in heart surgery, neurosurgery, head injuries and infectious diseases. "
+        "question": "  the use of induced hypothermia in heart surgery, neurosurgery, head injuries and infectious diseases. ",
+        "tokens": [
+            "use",
+            "induced",
+            "hypothermia",
+            "heart",
+            "surgery",
+            "neurosurgery",
+            "head",
+            "injury",
+            "infectious",
+            "disease"
+        ]
     },
     "9": {
-        "question": "  neoplasm immunology. "
+        "question": "  neoplasm immunology. ",
+        "tokens": [
+            "neoplasm",
+            "immunology"
+        ]
     },
     "10": {
-        "question": "  blood or urinary steroids in human breast or prostatic neoplasms. "
+        "question": "  blood or urinary steroids in human breast or prostatic neoplasms. ",
+        "tokens": [
+            "blood",
+            "urinary",
+            "steroid",
+            "human",
+            "breast",
+            "prostatic",
+            "neoplasm"
+        ]
     },
     "11": {
-        "question": "  effect of azathioprine on systemic lupus erythematosus, particularly in regard to renal lesions. "
+        "question": "  effect of azathioprine on systemic lupus erythematosus, particularly in regard to renal lesions. ",
+        "tokens": [
+            "effect",
+            "azathioprine",
+            "systemic",
+            "lupus",
+            "erythematosus",
+            "particularly",
+            "regard",
+            "renal",
+            "lesion"
+        ]
     },
     "12": {
-        "question": "  bacillus subtilis phages and genetics, with particular reference to transduction. "
+        "question": "  bacillus subtilis phages and genetics, with particular reference to transduction. ",
+        "tokens": [
+            "bacillus",
+            "subtilis",
+            "phage",
+            "genetics",
+            "particular",
+            "reference",
+            "transduction"
+        ]
     },
     "13": {
-        "question": "  renal amyloidosis as a complication of tuberculosis and the effects of steroids on this condition.  only the terms kidney diseases and nephrotic syndrome were selected by the requester.  prednisone and prednisolone are the only steroids of interest. "
+        "question": "  renal amyloidosis as a complication of tuberculosis and the effects of steroids on this condition.  only the terms kidney diseases and nephrotic syndrome were selected by the requester.  prednisone and prednisolone are the only steroids of interest. ",
+        "tokens": [
+            "renal",
+            "amyloidosis",
+            "complication",
+            "tuberculosis",
+            "effect",
+            "steroid",
+            "condition",
+            "term",
+            "kidney",
+            "disease",
+            "nephrotic",
+            "syndrome",
+            "selected",
+            "requester",
+            "prednisone",
+            "prednisolone",
+            "steroid",
+            "interest"
+        ]
     },
     "14": {
-        "question": "  homonymous hemianopsia in visual aphasia, particularly measurement and assessment.  gerstmann's syndrome and agnosia are also of interest. "
+        "question": "  homonymous hemianopsia in visual aphasia, particularly measurement and assessment.  gerstmann's syndrome and agnosia are also of interest. ",
+        "tokens": [
+            "homonymous",
+            "hemianopsia",
+            "visual",
+            "aphasia",
+            "particularly",
+            "measurement",
+            "assessment",
+            "gerstmann",
+            "syndrome",
+            "agnosia",
+            "also",
+            "interest"
+        ]
     },
     "15": {
-        "question": "  separation anxiety in infancy (i.e. up to two years of age) and in preschool children, particularly separation of a child from its mother. "
+        "question": "  separation anxiety in infancy (i.e. up to two years of age) and in preschool children, particularly separation of a child from its mother. ",
+        "tokens": [
+            "separation",
+            "anxiety",
+            "infancy",
+            "ie",
+            "two",
+            "year",
+            "age",
+            "preschool",
+            "child",
+            "particularly",
+            "separation",
+            "child",
+            "mother"
+        ]
     },
     "16": {
-        "question": "  nickel in nutrition:  requirements for methods for analysis; relation with enzyme systems; toxicity of, in humans and laboratory animals; deficiency signs and symptoms; level in various foodstuffs; level in blood and tissues. "
+        "question": "  nickel in nutrition:  requirements for methods for analysis; relation with enzyme systems; toxicity of, in humans and laboratory animals; deficiency signs and symptoms; level in various foodstuffs; level in blood and tissues. ",
+        "tokens": [
+            "nickel",
+            "nutrition",
+            "requirement",
+            "method",
+            "analysis",
+            "relation",
+            "enzyme",
+            "system",
+            "toxicity",
+            "human",
+            "laboratory",
+            "animal",
+            "deficiency",
+            "sign",
+            "symptom",
+            "level",
+            "various",
+            "foodstuff",
+            "level",
+            "blood",
+            "tissue"
+        ]
     },
     "17": {
-        "question": "  the toxicity of organic selenium compounds. "
+        "question": "  the toxicity of organic selenium compounds. ",
+        "tokens": [
+            "toxicity",
+            "organic",
+            "selenium",
+            "compound"
+        ]
     },
     "18": {
-        "question": "  excretion of phosphate or pyrophosphate in the urine or the effect of parathyroid hormone on kidney. "
+        "question": "  excretion of phosphate or pyrophosphate in the urine or the effect of parathyroid hormone on kidney. ",
+        "tokens": [
+            "excretion",
+            "phosphate",
+            "pyrophosphate",
+            "urine",
+            "effect",
+            "parathyroid",
+            "hormone",
+            "kidney"
+        ]
     },
     "19": {
-        "question": "  somatotropin as it effects bone, bone development, regeneration, resorption, bone cells, osteogenesis, physiologic calcification or ossification, cartilage and bone diseases in general.  somatotropin as it relates to hypophysectomy, pituitary function, diseases, dwarfism, neoplasms, hypopituitarism and hyperpituitarism, and growth in general. "
+        "question": "  somatotropin as it effects bone, bone development, regeneration, resorption, bone cells, osteogenesis, physiologic calcification or ossification, cartilage and bone diseases in general.  somatotropin as it relates to hypophysectomy, pituitary function, diseases, dwarfism, neoplasms, hypopituitarism and hyperpituitarism, and growth in general. ",
+        "tokens": [
+            "somatotropin",
+            "effect",
+            "bone",
+            "bone",
+            "development",
+            "regeneration",
+            "resorption",
+            "bone",
+            "cell",
+            "osteogenesis",
+            "physiologic",
+            "calcification",
+            "ossification",
+            "cartilage",
+            "bone",
+            "disease",
+            "general",
+            "somatotropin",
+            "relates",
+            "hypophysectomy",
+            "pituitary",
+            "function",
+            "disease",
+            "dwarfism",
+            "neoplasm",
+            "hypopituitarism",
+            "hyperpituitarism",
+            "growth",
+            "general"
+        ]
     },
     "20": {
-        "question": "  language development in infancy and pre-school age. "
+        "question": "  language development in infancy and pre-school age. ",
+        "tokens": [
+            "language",
+            "development",
+            "infancy",
+            "preschool",
+            "age"
+        ]
     },
     "21": {
-        "question": "  mycoplasma (infection or presence) in embryo, fetus, newborn infant or animal, or in pregnancy, gynecologic diseases, or as related to chromosomes or chromosome abnormalities. "
+        "question": "  mycoplasma (infection or presence) in embryo, fetus, newborn infant or animal, or in pregnancy, gynecologic diseases, or as related to chromosomes or chromosome abnormalities. ",
+        "tokens": [
+            "mycoplasma",
+            "infection",
+            "presence",
+            "embryo",
+            "fetus",
+            "newborn",
+            "infant",
+            "animal",
+            "pregnancy",
+            "gynecologic",
+            "disease",
+            "related",
+            "chromosome",
+            "chromosome",
+            "abnormality"
+        ]
     },
     "22": {
-        "question": "  infantile autism. "
+        "question": "  infantile autism. ",
+        "tokens": [
+            "infantile",
+            "autism"
+        ]
     },
     "23": {
-        "question": "  compensatory renal hypertrophy - - stimulus resulting in mass increase (hypertrophy) and cell proliferation (hyperplasia) in the remaining kidney following unilateral nephrectomy in mammals. "
+        "question": "  compensatory renal hypertrophy - - stimulus resulting in mass increase (hypertrophy) and cell proliferation (hyperplasia) in the remaining kidney following unilateral nephrectomy in mammals. ",
+        "tokens": [
+            "compensatory",
+            "renal",
+            "hypertrophy",
+            "stimulus",
+            "resulting",
+            "mass",
+            "increase",
+            "hypertrophy",
+            "cell",
+            "proliferation",
+            "hyperplasia",
+            "remaining",
+            "kidney",
+            "following",
+            "unilateral",
+            "nephrectomy",
+            "mammal"
+        ]
     },
     "24": {
-        "question": "  use of chlorothiazide (diuril) or hydrochlorothiazide (hydrodiuril) in the treatment of nephogenic diabetes insipidus in children; also, use of low sodium diets and aldactone (spironolactone) in the treatment of childhood nephogenic diabetes insipidus. "
+        "question": "  use of chlorothiazide (diuril) or hydrochlorothiazide (hydrodiuril) in the treatment of nephogenic diabetes insipidus in children; also, use of low sodium diets and aldactone (spironolactone) in the treatment of childhood nephogenic diabetes insipidus. ",
+        "tokens": [
+            "use",
+            "chlorothiazide",
+            "diuril",
+            "hydrochlorothiazide",
+            "hydrodiuril",
+            "treatment",
+            "nephogenic",
+            "diabetes",
+            "insipidus",
+            "child",
+            "also",
+            "use",
+            "low",
+            "sodium",
+            "diet",
+            "aldactone",
+            "spironolactone",
+            "treatment",
+            "childhood",
+            "nephogenic",
+            "diabetes",
+            "insipidus"
+        ]
     },
     "25": {
-        "question": "  methods for experimental production of and known causes of hydrocephalus in animals and humans. "
+        "question": "  methods for experimental production of and known causes of hydrocephalus in animals and humans. ",
+        "tokens": [
+            "method",
+            "experimental",
+            "production",
+            "known",
+            "cause",
+            "hydrocephalus",
+            "animal",
+            "human"
+        ]
     },
     "26": {
-        "question": "  interested in the parasitic diseases.  filaria parasites found in primates, the insect vectors of filaria, the related diptera, i. e., culicoides, mosquitos, etc., that may serve as vectors of this infection-disease; also the life cycles and transmission of the filaria.  parasites and ecology of the taiwan monkey, macaca cyclopis, with emphasis on the filarial parasite, macacanema formosana. "
+        "question": "  interested in the parasitic diseases.  filaria parasites found in primates, the insect vectors of filaria, the related diptera, i. e., culicoides, mosquitos, etc., that may serve as vectors of this infection-disease; also the life cycles and transmission of the filaria.  parasites and ecology of the taiwan monkey, macaca cyclopis, with emphasis on the filarial parasite, macacanema formosana. ",
+        "tokens": [
+            "interested",
+            "parasitic",
+            "disease",
+            "filaria",
+            "parasite",
+            "found",
+            "primate",
+            "insect",
+            "vector",
+            "filaria",
+            "related",
+            "diptera",
+            "e",
+            "culicoides",
+            "mosquito",
+            "etc",
+            "may",
+            "serve",
+            "vector",
+            "infectiondisease",
+            "also",
+            "life",
+            "cycle",
+            "transmission",
+            "filaria",
+            "parasite",
+            "ecology",
+            "taiwan",
+            "monkey",
+            "macaca",
+            "cyclopis",
+            "emphasis",
+            "filarial",
+            "parasite",
+            "macacanema",
+            "formosana"
+        ]
     },
     "27": {
-        "question": "  palliation (temporary improvement) of cancer patients by using drugs, x-ray, surgery. "
+        "question": "  palliation (temporary improvement) of cancer patients by using drugs, x-ray, surgery. ",
+        "tokens": [
+            "palliation",
+            "temporary",
+            "improvement",
+            "cancer",
+            "patient",
+            "using",
+            "drug",
+            "xray",
+            "surgery"
+        ]
     },
     "28": {
-        "question": "  hereditary implications of prolonged neonatal obstructive jaundice associated with liver pathology.  there are but two relatively common well-defined pathologic entities that present as such:  1) bile duct or biliary atresia and 2) giant cell transformation of the liver often referred to as neonatal hepatitis.  information regarding liver and bile duct embryogenesis will be an important adjunct to papers on the disease processes. "
+        "question": "  hereditary implications of prolonged neonatal obstructive jaundice associated with liver pathology.  there are but two relatively common well-defined pathologic entities that present as such:  1) bile duct or biliary atresia and 2) giant cell transformation of the liver often referred to as neonatal hepatitis.  information regarding liver and bile duct embryogenesis will be an important adjunct to papers on the disease processes. ",
+        "tokens": [
+            "hereditary",
+            "implication",
+            "prolonged",
+            "neonatal",
+            "obstructive",
+            "jaundice",
+            "associated",
+            "liver",
+            "pathology",
+            "two",
+            "relatively",
+            "common",
+            "welldefined",
+            "pathologic",
+            "entity",
+            "present",
+            "bile",
+            "duct",
+            "biliary",
+            "atresia",
+            "giant",
+            "cell",
+            "transformation",
+            "liver",
+            "often",
+            "referred",
+            "neonatal",
+            "hepatitis",
+            "information",
+            "regarding",
+            "liver",
+            "bile",
+            "duct",
+            "embryogenesis",
+            "important",
+            "adjunct",
+            "paper",
+            "disease",
+            "process"
+        ]
     },
     "29": {
-        "question": "  hemophilia and christmas disease, especially in regard to the specific complication of pseudotumor formation (occurrence, pathogenesis, treatment, prognosis).  "
+        "question": "  hemophilia and christmas disease, especially in regard to the specific complication of pseudotumor formation (occurrence, pathogenesis, treatment, prognosis).  ",
+        "tokens": [
+            "hemophilia",
+            "christmas",
+            "disease",
+            "especially",
+            "regard",
+            "specific",
+            "complication",
+            "pseudotumor",
+            "formation",
+            "occurrence",
+            "pathogenesis",
+            "treatment",
+            "prognosis"
+        ]
     }
 }
