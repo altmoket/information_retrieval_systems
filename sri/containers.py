@@ -1,6 +1,6 @@
 from dependency_injector import containers, providers
 from .searchengine.containers import SearchEngineContainer
-from .navigator.containers import FlaskContainer
+from .navigator.containers import NavigatorContainer
 
 
 class SriContainer(containers.DeclarativeContainer):
@@ -12,9 +12,9 @@ class SriContainer(containers.DeclarativeContainer):
         config = config
     )
     
-    flask_package = providers.Container(
-        FlaskContainer,
-        config = config.flask,
+    navigator_package = providers.Container(
+        NavigatorContainer,
+        flask_config = config.flask,
         search_engine = search_engine_package.search_engine_service
     )
     
