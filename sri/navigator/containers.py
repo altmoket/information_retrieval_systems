@@ -1,14 +1,14 @@
 from dependency_injector import containers, providers
-from .services import FlaskService
+from .services import NavigatorService
 
-class FlaskContainer(containers.DeclarativeContainer):
+class NavigatorContainer(containers.DeclarativeContainer):
     
-    config = providers.Dependency()
+    flask_config = providers.Dependency()
     search_engine = providers.Dependency()
     
-    flask_service = providers.Singleton(
-        FlaskService,
-        config = config,
+    navigator_service = providers.Singleton(
+        NavigatorService,
+        config = flask_config,
         search_engine = search_engine
     )
     
